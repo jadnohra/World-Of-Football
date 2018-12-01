@@ -34,4 +34,4 @@ Videos and screenshots of features, developments, and silly stuff, are in the di
 | <img src="Media/sshot-20.jpg" height="180"/> | <img src="Media/sshot-21.jpg" height="180"/>  | <img src="Media/sshot-22.jpg" height="180"/>  |
 |  <img src="Media/sshot-23.jpg" height="180"/> | <img src="Media/sshot-24.jpg" height="180"/>  | <img src="Media/sshot-25.jpg" height="180"/>  |
 | <img src="Media/sshot-26.jpg" height="180"/>  |  <img src="Media/sshot-27.jpg" height="180"/> | <img src="Media/sshot-28.jpg" height="180"/>  |
-| <img src="Media/sshot-29.jpg" height="180"/>  |  <img src="Media/sshot-34.jpg" height="180"/> |   |
+| <img src="Media/sshot-29.jpg" height="180"/>  |  <img src="Media/sshot-34.jpg" height="180"/> |  <img src="Media/sshot-11.jpg" height="180"/> |
