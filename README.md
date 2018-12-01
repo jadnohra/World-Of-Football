@@ -4,6 +4,6 @@ This is a developer backup copy of _World of Football_. A game that was never re
 
 Below is a bit of information to help navigating the backup.
 
-The game engine was built from scratch with almost no usage of third party code or libraries, it was called _Witch Engine_ found in _WitchEngine3/src/WE3_. On top, an editor was built called _Evil Eye_ found in _WitchEngine3/src/EE_. Based on both, the game itself _World of Football_. Aside from the source code folder _WOF2/src_, of interest are the assets found in _WOF2/deploy/assets_, including the AI scripts found in _WOF2/deploy/assets/script_.
+The game engine was built from scratch with almost no usage of third party code or libraries, it was called _Witch Engine_ found in _[WitchEngine3/src/WE3](WitchEngine3/src/WE3)_. On top, an editor was built called _Evil Eye_ found in _[WitchEngine3/src/EE](WitchEngine3/src/EE)_. Based on both, the game itself _World of Football_. Aside from the source code folder _[WOF2/src](WOF2/src)_, of interest are the assets found in _[WOF2/deploy/assets](WOF2/deploy/assets)_, including the AI scripts found in _[WOF2/deploy/assets/script](WOF2/deploy/assets/script)_.
 
-The idea of the game was to bring back the gameplay of old soccer game classics, based on skill using the controller, and away from canned special moves, but using relatively modern (at the time) 3D graphics. Videos and screenshots of features, developments, and silly stuff, are in the folder _Media_.
+The idea of the game was to bring back the gameplay of old soccer game classics, based on skill using the controller, and away from canned special moves, but using relatively modern (at the time) 3D graphics. Videos and screenshots of features, developments, and silly stuff, are in the folder _[Media](Media)_.
