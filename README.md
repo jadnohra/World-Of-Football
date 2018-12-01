@@ -22,6 +22,7 @@ The idea of the game was to bring back the gameplay of old soccer game classics,
  * Assets were expressed in xml
  * A generic input device framework was used, abstracting away the actual controller from the input logic and allowing easy remapping without changing source code
  * Custom collision detection, math and container libraries
+ * Imagemagick was used to procedurally generate billboards
 
 ## Media
 A partial gallery from the _[Media](Media)_ directory
