@@ -1,0 +1,306 @@
+material stadium/ground_seats
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.25098 0.25098 0.25098
+            diffuse 0.25098 0.25098 0.25098
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture seats_ground.png 
+            }
+        }
+    }
+}
+
+material stadium/ground
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture ground_concrete_01.png 
+            }
+        }
+    }
+}
+
+material stadium/wall
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.203922 0.203922
+            diffuse 0.588235 0.203922 0.203922
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture wall_brick_01.png 
+            }
+        }
+    }
+}
+
+material stadium/ceiling
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.356863 0.356863 0.603922
+            diffuse 0.356863 0.356863 0.603922
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture roof_01.png 
+            }
+        }
+    }
+}
+
+material stadium/fence
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.968628 0.984314 0.588235
+            diffuse 0.968628 0.984314 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture fence.png 
+            }
+        }
+    }
+}
+
+material stadium/boards
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 0.917647 0.0
+            diffuse 1.0 0.917647 0.0
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture board_red.png 
+            }
+        }
+    }
+}
+
+material stadium/wall_light
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.203922 0.203922
+            diffuse 0.588235 0.203922 0.203922
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture wall_brick_02.png 
+            }
+        }
+    }
+}
+
+material stadium/door
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door.png 
+            }
+        }
+    }
+}
+
+material stadium/ground_bounce
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture ground_bounce.png 
+            }
+        }
+    }
+}
+
+material stadium/steps
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture steps.png 
+            }
+        }
+    }
+}
+
+material stadium/seats_pattern
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture seats_pattern_default.png 
+            }
+        }
+    }
+}
+
+material stadium/window_end
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588 0.588 0.588
+            diffuse 0.588 0.588 0.588
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture window_end.png 
+            }
+        }
+    }
+}
+
+material stadium/kick_racism
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588 0.588 0.588
+            diffuse 0.588 0.588 0.588
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture kickracism.png 
+            }
+        }
+    }
+}
+
+material stadium/lounge
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588 0.588 0.588
+            diffuse 0.588 0.588 0.588
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture lounge.png 
+            }
+        }
+    }
+}
+
+material stadium/board_KP
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 0.917647 0.0
+            diffuse 1.0 0.917647 0.0
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture board_kimerapark.png 
+            }
+        }
+    }
+}
+
+material stadium/roof_tiles
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0784314 0.0784314 0.0784314
+            diffuse 0.0784314 0.0784314 0.0784314
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture roof_tiles.png 
+            }
+        }
+    }
+}
+
+material stadium/window_houses
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0784314 0.0784314 0.0784314
+            diffuse 0.0784314 0.0784314 0.0784314
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture window_house.png 
+            }
+        }
+    }
+}
+

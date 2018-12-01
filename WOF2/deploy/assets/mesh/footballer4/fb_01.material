@@ -1,0 +1,203 @@
+
+material boot
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			specular 0.9 0.9 0.9 1 0.1
+			cull_hardware none
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0.588235 0.588235 0.588235 1
+				param_named diffuseColor float4 0.588235 0.588235 0.588235 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture boot_black_black.png -1
+			}
+		}
+
+	}
+
+}
+
+material shirt
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			cull_hardware none
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0.588 0.588 0.588 1
+				param_named diffuseColor float4 0.588 0.588 0.588 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture kit_shirt.png -1
+			}
+		}
+
+	}
+
+}
+
+material shorts
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			cull_hardware none
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0.588 0.588 0.588 1
+				param_named diffuseColor float4 0.588 0.588 0.588 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture kit_shorts.png -1
+			}
+		}
+
+	}
+
+}
+
+material skin
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0.588235 0.588235 0.588235 1
+				param_named diffuseColor float4 0.588235 0.588235 0.588235 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture bro_cor_bbo_uns_bbo.png -1
+			}
+		}
+
+	}
+
+}
+
+material sleeves
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			cull_hardware none
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0.588 0.588 0.588 1
+				param_named diffuseColor float4 0.588 0.588 0.588 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture kit_sleeves.png -1
+			}
+		}
+
+	}
+
+}
+
+material socks
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			cull_hardware none
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0.588 0.588 0.588 1
+				param_named diffuseColor float4 0.588 0.588 0.588 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture kit_socks.png -1
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,124 @@
+<mesh>
+	<submeshes>
+		<submesh material = "grass/grass_pattern" usesharedvertices="false" use32bitindexes="false">
+			<faces count="2">
+				<face v1="0" v2="1" v3="2" />
+				<face v1="3" v2="2" v3="1" />
+			</faces>
+			<geometry vertexcount="4">
+				<vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coords_dimensions_0="2" >
+					<vertex>
+						<position x="-5000.0" y="0.0" z="-6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.000499904" v="0.000499547" />
+					</vertex>
+					<vertex>
+						<position x="-5000.0" y="0.0" z="0.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.000499725" v="0.5" />
+					</vertex>
+					<vertex>
+						<position x="0.0" y="0.0" z="-6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.000499606" />
+					</vertex>
+					<vertex>
+						<position x="0.0" y="0.0" z="0.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.5" />
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+		</submesh>
+		<submesh material = "grass/grass_pattern" usesharedvertices="false" use32bitindexes="false">
+			<faces count="2">
+				<face v1="0" v2="1" v3="2" />
+				<face v1="3" v2="2" v3="1" />
+			</faces>
+			<geometry vertexcount="4">
+				<vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coords_dimensions_0="2" >
+					<vertex>
+						<position x="5000.0" y="0.0" z="-6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.999501" v="0.000499725" />
+					</vertex>
+					<vertex>
+						<position x="0.0" y="0.0" z="-6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.000499606" />
+					</vertex>
+					<vertex>
+						<position x="5000.0" y="0.0" z="0.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.9995" v="0.5" />
+					</vertex>
+					<vertex>
+						<position x="0.0" y="0.0" z="0.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.5" />
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+		</submesh>
+		<submesh material = "grass/grass_pattern" usesharedvertices="false" use32bitindexes="false">
+			<faces count="2">
+				<face v1="0" v2="1" v3="2" />
+				<face v1="3" v2="2" v3="1" />
+			</faces>
+			<geometry vertexcount="4">
+				<vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coords_dimensions_0="2" >
+					<vertex>
+						<position x="5000.0" y="0.0" z="6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.9995" v="0.9995" />
+					</vertex>
+					<vertex>
+						<position x="5000.0" y="0.0" z="0.000754979" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.9995" v="0.5" />
+					</vertex>
+					<vertex>
+						<position x="-0.000981473" y="0.0" z="6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.9995" />
+					</vertex>
+					<vertex>
+						<position x="0.0" y="0.0" z="0.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.5" />
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+		</submesh>
+		<submesh material = "grass/grass_pattern" usesharedvertices="false" use32bitindexes="false">
+			<faces count="2">
+				<face v1="0" v2="1" v3="2" />
+				<face v1="3" v2="2" v3="1" />
+			</faces>
+			<geometry vertexcount="4">
+				<vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coords_dimensions_0="2" >
+					<vertex>
+						<position x="-5000.0" y="0.0" z="6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.000499487" v="0.9995" />
+					</vertex>
+					<vertex>
+						<position x="-0.000981473" y="0.0" z="6500.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.9995" />
+					</vertex>
+					<vertex>
+						<position x="-5000.0" y="0.0" z="-0.000754979" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.000499725" v="0.5" />
+					</vertex>
+					<vertex>
+						<position x="0.0" y="0.0" z="0.0" />
+						<normal x="0.0" y="1.0" z="0.0" />
+						<texcoord u="0.5" v="0.5" />
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+		</submesh>
+	</submeshes>
+</mesh>

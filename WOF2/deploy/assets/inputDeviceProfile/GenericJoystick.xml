@@ -1,0 +1,26 @@
+<WE>
+	
+	<profile name="GenericJoystick" gameName="Generic Joystick" selectName="Joystick" priority="-1" >
+		
+		<controller type="Joystick" />
+		
+		<mapAny filterMin="0.0" to="Pass" />
+		<mapAny filterMin="0.0" to="ShotHigh" />
+		<mapAny filterMin="0.0" to="ShotLow" allowDummy="true" />
+		<mapAny filterMin="0.0" to="ShotExtra" allowDummy="true" />
+		<mapAny filterMin="0.0" to="Modifier" allowDummy="true" />
+		<mapAny filterMin="0.0" to="Modifier2" allowDummy="true" />
+		
+		<mapAny filterMin="-1.0" filterMax="1.0" to="FwdAxis" negate="true" >
+			<prefer type="YAxis" />
+		</mapAny>
+		<mapAny filterMin="-1.0" filterMax="1.0" to="RightAxis" >
+			<prefer type="XAxis" />
+		</mapAny>
+		
+		<mapAnd controller="@self" from1="Pass" from2="ShotHigh" to="SetDeadZone" />
+		<mapAnd controller="@self" from1="Modifier" from2="Modifier2" to="Switch" />
+		
+	</profile>
+	
+</WE>

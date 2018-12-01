@@ -1,0 +1,135 @@
+How to add meshes to the WOF Demo1.
+
+EXPORT
+
+1. export ogre mesh
+
+COPY AND ORGANIZE
+
+2. make a folder in assets/mesh, eg: assets/mesh/footballer (this will be called the 'mesh root folder')
+3. put the exported files into the folder,
+	eg: fb_01.mesh.xml, fb_01.material, fb_01.skeleton.xml*, 
+4. create a folder hierarchy for the textures, (eg: assets/mesh/tex/ , assets/mesh/tex/boots/, assets/mesh/tex/hair/, ...)
+	or simply decide to put all meshes in mesh root folder (eg: assets/mesh/footballer)
+5. copy textures to the their appropriate places
+
+FIX MATERIALS
+
+1. WOF cant use the ogre material file (e.g: fb_01.material) directly
+2. create a file named exactly 'materials.xml' in the 'mesh root folder' and open it for editing
+3. paste this into the file
+
+<WE>
+
+	<materials>
+	</materials>
+	
+</WE>	
+
+4. now all the materials will go under the <materials> tag
+5. open the ogre material file (e.g: fb_01.material)
+6. now for each material in the ogre material file well add one to the WOF materials.xml file
+	so materials.xml will look like this if we have 3 materials
+	e.g:
+
+<WE>
+
+	<materials>
+	
+		<material>
+			....stuff...
+		</material>
+	
+		<material>
+			....stuff...
+		</material>
+	
+		<material>
+			....stuff...
+		</material>
+	
+	</materials>
+	
+</WE>	
+
+7. each material in materials.xml will look approx. the same,
+	so for starters make every material look like this:
+	
+		<material type="material" name="fb_01/boot" poolId="auto" parameters="boot" >
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="true" value="0.75" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="tex/boots/[boot].png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material>
+
+8.	now u have to fill this by using values from the ogre material
+
+	a. decide which texture variables the mesh has, per example a 
+		footballer boot material has a variable mesh so we will call it the variable 'boot'
+		this variable will be then used to choose which texture to use for the boot for different footballers
+
+	b. set name="..." to the same material name in ogre file
+	c. set parameters="..." to the name of the variable texture or DELETE parameters="" if there is none.
+	d. set ambient, diffuse, emmissive, Note: instead of 0.6,0.6,0.6 u only need to write 0.6
+	e. decide if want to enable specular or not and set specular properties
+	f. fix the variable texture file path. the texture file (e.g: file="tex/boots/[boot].png") is used like this.
+		the path is relative to the mesh root folder and the boot] is replaced by anything we want
+		and comes from the scene file.
+		
+SHOW MESH IN THE GAME		
+
+1. open the scene file (e.g: WOF_matchTest_Demo1_Switching.xml)
+2. locate the <meshes> tag, and place the new mesh somewhere inside it 
+	e.g: <meshes>
+			
+			<stadium remote="../mesh/stadium/stand_test.mesh.xml/mesh" >
+			</stadium>
+
+	P.S: make sure the mesh name e.g: stadium is not used for a another mesh and ensure the path is correct 
+		(use already added meshes as example).
+		
+	P.S: the mesh can be anchored and translated and transformed in a number of ways, but those are advanced options.		
+	
+3. 	locate the <entities> tag, and place the new entity somewhere inside it 
+	e.g: 
+	
+	<entities>
+		<stadium type="mesh" source="stadium" /> 
+			|							|
+			|							|
+		name of entity				name of mesh from step 2
+
+4. 	locate the <pitchCenter> tag, and place the new entity somewhere inside it 
+
+	e.g:
+	
+	<pitchCenter>
+	
+		<stadium entity="stadium" pos="0,0,0" axis="0,1,0" angle="0" />
+			|				|
+			|			entity name
+			|
+		by default use the entity name	
+		
+		* with pos u can choose where to place the mesh, 1st try 0,0,0 and go from there
+		* leave the axis as is to rotate the mesh around vertical axis
+		* use angle to rotate the mesh around the axis
+		
+		as always 	x = -(left) -> +(right)
+					y = -(down) -> +(up)
+					z = -(back) -> +(fwd)
+					
+					and 1 is 1 meter, so just try it out
+
+4. if mesh appears with a checkboard texture the texture paths are wrong, try to look at log file for tips					
+5. at this stage the mesh is not used for collisions, that needs some more tweaking, best left to developer
+						
+	

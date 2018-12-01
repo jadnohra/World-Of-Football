@@ -1,0 +1,14 @@
+<WE>
+
+	<videoSettings windowed="true" width="1024" height="768" vSync="false" antiAlias="true" antiAliasSamples="2" maxColorDepth="0" />
+	<performance processPriority="0" processorUsage="0" />
+	<paths splash="../res/loading.png" loadTrack="../res/load.ogg" assets="../assets/debug/" local="../localDebug/" plugins="../assets/plugins/" />
+	
+	
+	<tweak
+		loadTrackVolume="0.2" splashColor="white" enableDebugKeys="true" 
+		enableDebugger="false" debuggerPath="../../../WOF_Debugger/deploy/lib/WOF_Debugger.dll" 
+		dumpInputDevices="false" dumpInputDevicesPath="InputDevicesDump.txt" 
+	/>
+	
+</WE>

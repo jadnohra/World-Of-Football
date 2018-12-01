@@ -1,0 +1,31 @@
+<WE>
+	
+	<profile name="PSX-DualShock" gameName="PSX-DualShock" selectName="Joystick" >
+		
+		<controller type="Joystick" >
+			<require name="PS" />
+			<require name="DUAL" />
+		</controller>
+		
+		<map from="2" to="Pass" />
+		<map from="3" to="ShotHigh" />
+		<map from="0" to="ShotExtra" />
+		<map from="1" to="ShotLow" />
+		<map from="6" to="Modifier" />
+		<map from="7" to="Modifier2" />
+		
+		<mapAny filterMin="-1.0" filterMax="1.0" to="FwdAxis" negate="true" >
+			<prefer type="YAxis" />
+		</mapAny>
+		<mapAny filterMin="-1.0" filterMax="1.0" to="RightAxis" >
+			<prefer type="XAxis" />
+		</mapAny>
+		
+		<mapAnd controller="@self" from1="Pass" from2="ShotHigh" to="SetDeadZone" />
+		<mapAnd controller="@self" from1="Modifier" from2="Modifier2" to="Switch" />
+		
+		<map from="5" to="Magic1" />
+		
+	</profile>
+	
+</WE>

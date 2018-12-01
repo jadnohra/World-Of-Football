@@ -1,0 +1,130 @@
+<WE>
+
+	<team name="Barcelona">
+	
+		<skins>
+		
+			<skin name="home" kitPath="barcelona_" scannerColor="blue" >
+				<player> <COC color="white" /> <scanner color="blue" /> </player>
+				<player> <COC color="white" /> <scanner color="blue" /> </player>
+			</skin>
+			
+			<skin name="away" kitPath="barcelona_" scannerColor="yellow" >
+				<player> <COC color="yellow" /> </player>
+				<player> <COC color="yellow" /> </player>
+			</skin>
+		
+		</skins>
+				
+		<formations>
+			<formation name="442" />
+		</formations>
+		
+	</team>
+
+	<entities>
+	
+		<footballer name="footballer[team]_1" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/01" skin="erdelyi" boot="boot_black_orange" /> 
+			<game team="[team]" number="1" teamFormationCode="goalie" />
+		</footballer>
+		
+		<!--footballer_hair name="footballer[team]_1_hair" type="mesh" source="hair_mullet" shadowing="false" > 
+			<params color="blackblue_transp" /> 
+		</footballer_hair-->
+		
+				
+		<footballer name="footballer[team]_2" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/02" skin="short_black" boot="boot_black_black"/> 
+			<game team="[team]" number="2" teamFormationCode="def1" />
+			<attributes PhysicalStaminaFitness="100" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_2_hair" type="mesh" source="hair_partside" shadowing="false" > 
+			<params color="blackbrown" /> 
+		</footballer_hair> 
+		
+		<footballer name="footballer[team]_3" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/03" skin="cavalera" boot="boot_white_silver"/> 
+			<game team="[team]" number="3" teamFormationCode="def2" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_3_hair" type="mesh" source="hair_mullet" shadowing="false" > 
+			<params color="blackblue" /> 
+		</footballer_hair>
+		
+		<footballer name="footballer[team]_4" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/04" skin="ricardo" boot="boot_white_green"/> 
+			<game team="[team]" number="4" teamFormationCode="mid1" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_4_hair" type="mesh" source="hair_spike" shadowing="false" > 
+			<params color="blackbrown" /> 
+		</footballer_hair>
+
+		<footballer name="footballer[team]_5" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/05" skin="kivimaki" boot="boot_black_black"/> 
+			<game team="[team]" number="5" teamFormationCode="def3" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_5_hair" type="mesh" source="hair_partside" shadowing="false" > 
+			<params color="blonde" /> 
+		</footballer_hair>
+					
+		<footballer name="footballer[team]_6" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/06" skin="manara" boot="boot_white_blue"/> 
+			<game team="[team]" number="6" teamFormationCode="def4" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_6_hair" type="mesh" source="hair_ponytail" shadowing="false" > 
+			<params color="brown" /> 
+		</footballer_hair>
+
+		<footballer name="footballer[team]_7" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/07" skin="mayall" boot="boot_black_blue"/> 
+			<game team="[team]" number="7" teamFormationCode="off_left" />
+		</footballer>
+
+		<!--footballer_hair name="footballer[team]_7_hair" type="mesh" source="hair_mullet_ponytail" shadowing="false" > 
+			<params color="yellow" /> 
+		</footballer_hair-->
+		
+		<footballer name="footballer[team]_8" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/08" skin="foe" boot="boot_white_white"/> 
+			<game team="[team]" number="8" teamFormationCode="mid2" />
+		</footballer>
+		
+		<!--footballer_hair name="footballer[team]_8_hair" type="mesh" source="hair_headband" shadowing="false" > 
+			<params color="red" /> 
+		</footballer_hair-->
+
+		<footballer name="footballer[team]_9" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/09" skin="miyamoto" boot="boot_black_black"/> 
+			<game team="[team]" number="9" teamFormationCode="off1" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_9_hair" type="mesh" source="hair_moptop" shadowing="false" > 
+			<params color="blackblue" /> 
+		</footballer_hair>
+
+		<footballer name="footballer[team]_10" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/10" skin="muzaffa" boot="boot_black_green"/> 
+			<game team="[team]" number="10" teamFormationCode="off2" />
+		</footballer>
+		
+		<footballer_hair name="footballer[team]_10_hair" type="mesh" source="hair_army" shadowing="false" > 
+			<params color="blackblue" /> 
+		</footballer_hair>
+
+		<footballer name="footballer[team]_11" type="scriptedCharacter" scriptClass="Footballer" source="footballer" coll="true" collMaterial="human/skin" gameType="footballer" shadowing="true" >
+			<params kit="[kitPath]/11" skin="sang_zhu" boot="boot_white_blue"/> 
+			<game team="[team]" number="11" teamFormationCode="off_right" />
+		</footballer>
+		
+		<!--footballer_hair name="footballer[team]_11_hair" type="mesh" source="hair_afro" shadowing="false" > 
+			<params color="blackblue" /> 
+		</footballer_hair-->
+
+	</entities>
+
+</WE>

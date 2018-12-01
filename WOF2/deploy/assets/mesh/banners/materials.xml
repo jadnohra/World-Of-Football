@@ -1,0 +1,87 @@
+<WE>
+
+	<physicalProxy type="mesh" mapping="merge" material="[physMaterial]" parameters="physMaterial" >
+		
+		<simplification enabled="false" mode="planar" planarAngle="2.5" loopMode="iterate" stepLimit="-1" considerAesthetics="true" useIslands="true" />
+			
+	</physicalProxy>
+
+	<materials>
+		
+		<material_0 type="material" name="banners/banner_01" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="banner_01.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_0>
+		
+		<material_1 type="material" name="banners/banner_02" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="banner_02.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_1>
+		
+		<material_2 type="material" name="banners/banner_03" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="banner_03.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_2>
+
+		<material_3 type="material" name="banners/banner_04" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="banner_04.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_3>		
+		
+		<material_4 type="material" name="banners/banner_05" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="banner_05.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_4>
+	</materials>
+	
+</WE>

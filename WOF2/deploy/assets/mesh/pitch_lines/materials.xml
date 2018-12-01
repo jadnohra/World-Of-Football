@@ -1,0 +1,19 @@
+﻿<WE>
+
+	<materials>
+		
+		<material_0 type="material" name="pitch_lines" poolId="auto" >
+			<lighting enable="true" />
+			<depthBias value="-0.00051" />
+			<alpha enable="true" />
+			<ambient value="1" />
+			<diffuse value="1" />
+			<texture minFilter="point" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="lines.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+			</texture>
+		</material_0>
+				
+	</materials>	
+		
+
+</WE>

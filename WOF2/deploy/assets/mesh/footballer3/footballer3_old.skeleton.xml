@@ -1,0 +1,309 @@
+<skeleton>
+	<bones>
+		<bone id="0" name="Bip01">
+			<position x="0.0" y="75.5877" z="0.0" />
+			<rotation angle="-2.09439">
+				<axis x="0.577351" y="0.57735" z="0.57735" />
+			</rotation>
+		</bone>
+		<bone id="1" name="Bip01_Footsteps">
+			<position x="0.0" y="0.0" z="-75.666" />
+			<rotation angle="-1.5708">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="2" name="Bip01_Pelvis">
+			<position x="0.0" y="0.0" z="0.0" />
+			<rotation angle="-2.09439">
+				<axis x="0.57735" y="0.577351" z="0.577351" />
+			</rotation>
+		</bone>
+		<bone id="3" name="Bip01_Spine">
+			<position x="7.83723" y="-0.0141055" z="1.08882e-005" />
+			<rotation angle="-0.000690534">
+				<axis x="0.00522516" y="0.00174218" z="-0.999985" />
+			</rotation>
+		</bone>
+		<bone id="4" name="Bip01_Spine1">
+			<position x="17.7189" y="-0.0151997" z="0.0" />
+			<rotation angle="0.0">
+				<axis x="-1.0" y="-0.00097049" z="0.0" />
+			</rotation>
+		</bone>
+		<bone id="5" name="Bip01_Neck">
+			<position x="19.0894" y="-0.00667138" z="0.0" />
+			<rotation angle="-0.132909">
+				<axis x="0.0" y="2.7736e-006" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="6" name="Bip01_Head">
+			<position x="8.45243" y="1.49756e-007" z="0.0" />
+			<rotation angle="-0.133707">
+				<axis x="0.0" y="-2.77357e-006" z="1.0" />
+			</rotation>
+		</bone>
+		<bone id="7" name="Bip01_L_Clavicle">
+			<position x="-0.620117" y="0.0901283" z="4.76655" />
+			<rotation angle="-3.0327">
+				<axis x="-0.579519" y="0.0388013" z="-0.814035" />
+			</rotation>
+		</bone>
+		<bone id="8" name="Bip01_L_UpperArm">
+			<position x="18.5614" y="0.0" z="-1.1874e-006" />
+			<rotation angle="-0.377226">
+				<axis x="-0.00533664" y="-0.999768" z="-0.0208443" />
+			</rotation>
+		</bone>
+		<bone id="9" name="Bip01_L_Forearm">
+			<position x="24.9098" y="0.0" z="4.64314e-006" />
+			<rotation angle="-0.0150023">
+				<axis x="0.0" y="2.62202e-006" z="1.0" />
+			</rotation>
+		</bone>
+		<bone id="10" name="Bip01_L_Hand">
+			<position x="17.2095" y="0.0" z="-1.25653e-006" />
+			<rotation angle="-1.58527">
+				<axis x="0.986982" y="-0.104086" z="-0.122605" />
+			</rotation>
+		</bone>
+		<bone id="11" name="Bip01_L_Finger0">
+			<position x="5.06355" y="2.97325" z="-5.78904" />
+			<rotation angle="-1.56945">
+				<axis x="-0.937828" y="-0.328009" z="-0.113531" />
+			</rotation>
+		</bone>
+		<bone id="12" name="Bip01_L_Finger01">
+			<position x="5.05652" y="6.36613e-007" z="2.70033e-006" />
+			<rotation angle="-0.0559607">
+				<axis x="0.0" y="-1.70881e-007" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="13" name="Bip01_L_Finger1">
+			<position x="13.245" y="-1.3106" z="-4.76997" />
+			<rotation angle="-0.0149864">
+				<axis x="-0.413616" y="0.281621" z="0.865801" />
+			</rotation>
+		</bone>
+		<bone id="14" name="Bip01_L_Finger11">
+			<position x="5.26227" y="-1.13566e-006" z="-3.37637e-007" />
+			<rotation angle="-0.241978">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="15" name="Bip01_L_Finger2">
+			<position x="13.3098" y="-1.15133" z="-1.59264" />
+			<rotation angle="-0.0206007">
+				<axis x="-0.300126" y="0.205956" z="0.9314" />
+			</rotation>
+		</bone>
+		<bone id="16" name="Bip01_L_Finger21">
+			<position x="5.80874" y="3.75176e-006" z="0.0" />
+			<rotation angle="-0.246397">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="17" name="Bip01_L_Finger3">
+			<position x="13.2628" y="-1.34057" z="1.58245" />
+			<rotation angle="-0.0149226">
+				<axis x="-0.369197" y="0.230631" z="0.900279" />
+			</rotation>
+		</bone>
+		<bone id="18" name="Bip01_L_Finger31">
+			<position x="5.22334" y="3.64824e-006" z="-1.48292e-007" />
+			<rotation angle="-0.223769">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="19" name="Bip01_L_Finger4">
+			<position x="13.3453" y="-1.40656" z="4.813" />
+			<rotation angle="-0.0508905">
+				<axis x="0.0156446" y="0.999878" z="-0.000397893" />
+			</rotation>
+		</bone>
+		<bone id="20" name="Bip01_L_Finger41">
+			<position x="4.72658" y="-4.25638e-006" z="-4.91725e-007" />
+			<rotation angle="-0.192118">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="21" name="Bip01_R_Clavicle">
+			<position x="-0.620117" y="0.0901548" z="-4.76655" />
+			<rotation angle="-3.0327">
+				<axis x="0.579519" y="-0.038799" z="-0.814035" />
+			</rotation>
+		</bone>
+		<bone id="22" name="Bip01_R_UpperArm">
+			<position x="18.5614" y="0.0" z="1.18739e-006" />
+			<rotation angle="-0.377226">
+				<axis x="0.00533687" y="0.999768" z="-0.0208439" />
+			</rotation>
+		</bone>
+		<bone id="23" name="Bip01_R_Forearm">
+			<position x="24.9098" y="0.0" z="-2.48892e-006" />
+			<rotation angle="-0.0150023">
+				<axis x="0.0" y="-9.80359e-007" z="1.0" />
+			</rotation>
+		</bone>
+		<bone id="24" name="Bip01_R_Hand">
+			<position x="17.2095" y="0.0" z="7.06591e-006" />
+			<rotation angle="-1.58527">
+				<axis x="-0.986982" y="0.104086" z="-0.122605" />
+			</rotation>
+		</bone>
+		<bone id="25" name="Bip01_R_Finger0">
+			<position x="5.06355" y="2.97325" z="5.78904" />
+			<rotation angle="-1.56945">
+				<axis x="0.937828" y="0.328009" z="-0.113531" />
+			</rotation>
+		</bone>
+		<bone id="26" name="Bip01_R_Finger01">
+			<position x="5.05652" y="-4.56177e-007" z="3.5655e-006" />
+			<rotation angle="-0.0559607">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="27" name="Bip01_R_Finger1">
+			<position x="13.245" y="-1.3106" z="4.76997" />
+			<rotation angle="-0.0149864">
+				<axis x="0.413616" y="-0.281621" z="0.865801" />
+			</rotation>
+		</bone>
+		<bone id="28" name="Bip01_R_Finger11">
+			<position x="5.26227" y="-3.9164e-006" z="1.53191e-007" />
+			<rotation angle="-0.241978">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="29" name="Bip01_R_Finger2">
+			<position x="13.3098" y="-1.15133" z="1.59264" />
+			<rotation angle="-0.0206007">
+				<axis x="0.300125" y="-0.205956" z="0.931401" />
+			</rotation>
+		</bone>
+		<bone id="30" name="Bip01_R_Finger21">
+			<position x="5.80874" y="-4.67173e-006" z="0.0" />
+			<rotation angle="-0.246397">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="31" name="Bip01_R_Finger3">
+			<position x="13.2628" y="-1.34057" z="-1.58245" />
+			<rotation angle="-0.0149066">
+				<axis x="0.369197" y="-0.23063" z="0.90028" />
+			</rotation>
+		</bone>
+		<bone id="32" name="Bip01_R_Finger31">
+			<position x="5.22334" y="4.50979e-006" z="0.0" />
+			<rotation angle="-0.223769">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="33" name="Bip01_R_Finger4">
+			<position x="13.3453" y="-1.40657" z="-4.813" />
+			<rotation angle="-0.0508905">
+				<axis x="-0.0156446" y="-0.999878" z="-0.000397637" />
+			</rotation>
+		</bone>
+		<bone id="34" name="Bip01_R_Finger41">
+			<position x="4.72657" y="6.28294e-006" z="-2.86894e-007" />
+			<rotation angle="-0.192118">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="35" name="Bip01_L_Thigh">
+			<position x="-7.83722" y="0.0203136" z="12.9975" />
+			<rotation angle="-3.14159">
+				<axis x="-0.0151746" y="-0.999885" z="-1.43213e-006" />
+			</rotation>
+		</bone>
+		<bone id="36" name="Bip01_L_Calf">
+			<position x="38.5461" y="0.0" z="3.1139e-007" />
+			<rotation angle="-0.267073">
+				<axis x="0.0" y="0.0" z="1.0" />
+			</rotation>
+		</bone>
+		<bone id="37" name="Bip01_L_Foot">
+			<position x="19.8032" y="-1.23888e-007" z="-1.45282e-007" />
+			<rotation angle="-0.237519">
+				<axis x="-3.44089e-007" y="-3.23416e-007" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="38" name="Bip01_L_Toe0">
+			<position x="17.4128" y="17.4467" z="0.0" />
+			<rotation angle="-1.5708">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="39" name="Bip01_R_Thigh">
+			<position x="-7.83722" y="0.0203857" z="-12.9975" />
+			<rotation angle="-3.14159">
+				<axis x="-0.0151746" y="-0.999885" z="-1.42856e-006" />
+			</rotation>
+		</bone>
+		<bone id="40" name="Bip01_R_Calf">
+			<position x="38.5461" y="0.0" z="1.49756e-007" />
+			<rotation angle="-0.267073">
+				<axis x="0.0" y="0.0" z="1.0" />
+			</rotation>
+		</bone>
+		<bone id="41" name="Bip01_R_Foot">
+			<position x="19.8032" y="-5.34554e-007" z="-5.86087e-007" />
+			<rotation angle="-0.237519">
+				<axis x="-3.88581e-007" y="2.35993e-007" z="-1.0" />
+			</rotation>
+		</bone>
+		<bone id="42" name="Bip01_R_Toe0">
+			<position x="17.4128" y="17.4467" z="0.0" />
+			<rotation angle="-1.5708">
+				<axis x="0.0" y="0.0" z="-1.0" />
+			</rotation>
+		</bone>
+	</bones>
+	<bonehierarchy>
+		<boneparent bone="Bip01_Footsteps" parent="Bip01" />
+		<boneparent bone="Bip01_Pelvis" parent="Bip01" />
+		<boneparent bone="Bip01_Spine" parent="Bip01_Pelvis" />
+		<boneparent bone="Bip01_Spine1" parent="Bip01_Spine" />
+		<boneparent bone="Bip01_Neck" parent="Bip01_Spine1" />
+		<boneparent bone="Bip01_Head" parent="Bip01_Neck" />
+		<boneparent bone="Bip01_L_Clavicle" parent="Bip01_Neck" />
+		<boneparent bone="Bip01_L_UpperArm" parent="Bip01_L_Clavicle" />
+		<boneparent bone="Bip01_L_Forearm" parent="Bip01_L_UpperArm" />
+		<boneparent bone="Bip01_L_Hand" parent="Bip01_L_Forearm" />
+		<boneparent bone="Bip01_L_Finger0" parent="Bip01_L_Hand" />
+		<boneparent bone="Bip01_L_Finger01" parent="Bip01_L_Finger0" />
+		<boneparent bone="Bip01_L_Finger1" parent="Bip01_L_Hand" />
+		<boneparent bone="Bip01_L_Finger11" parent="Bip01_L_Finger1" />
+		<boneparent bone="Bip01_L_Finger2" parent="Bip01_L_Hand" />
+		<boneparent bone="Bip01_L_Finger21" parent="Bip01_L_Finger2" />
+		<boneparent bone="Bip01_L_Finger3" parent="Bip01_L_Hand" />
+		<boneparent bone="Bip01_L_Finger31" parent="Bip01_L_Finger3" />
+		<boneparent bone="Bip01_L_Finger4" parent="Bip01_L_Hand" />
+		<boneparent bone="Bip01_L_Finger41" parent="Bip01_L_Finger4" />
+		<boneparent bone="Bip01_R_Clavicle" parent="Bip01_Neck" />
+		<boneparent bone="Bip01_R_UpperArm" parent="Bip01_R_Clavicle" />
+		<boneparent bone="Bip01_R_Forearm" parent="Bip01_R_UpperArm" />
+		<boneparent bone="Bip01_R_Hand" parent="Bip01_R_Forearm" />
+		<boneparent bone="Bip01_R_Finger0" parent="Bip01_R_Hand" />
+		<boneparent bone="Bip01_R_Finger01" parent="Bip01_R_Finger0" />
+		<boneparent bone="Bip01_R_Finger1" parent="Bip01_R_Hand" />
+		<boneparent bone="Bip01_R_Finger11" parent="Bip01_R_Finger1" />
+		<boneparent bone="Bip01_R_Finger2" parent="Bip01_R_Hand" />
+		<boneparent bone="Bip01_R_Finger21" parent="Bip01_R_Finger2" />
+		<boneparent bone="Bip01_R_Finger3" parent="Bip01_R_Hand" />
+		<boneparent bone="Bip01_R_Finger31" parent="Bip01_R_Finger3" />
+		<boneparent bone="Bip01_R_Finger4" parent="Bip01_R_Hand" />
+		<boneparent bone="Bip01_R_Finger41" parent="Bip01_R_Finger4" />
+		<boneparent bone="Bip01_L_Thigh" parent="Bip01_Spine" />
+		<boneparent bone="Bip01_L_Calf" parent="Bip01_L_Thigh" />
+		<boneparent bone="Bip01_L_Foot" parent="Bip01_L_Calf" />
+		<boneparent bone="Bip01_L_Toe0" parent="Bip01_L_Foot" />
+		<boneparent bone="Bip01_R_Thigh" parent="Bip01_Spine" />
+		<boneparent bone="Bip01_R_Calf" parent="Bip01_R_Thigh" />
+		<boneparent bone="Bip01_R_Foot" parent="Bip01_R_Calf" />
+		<boneparent bone="Bip01_R_Toe0" parent="Bip01_R_Foot" />
+	</bonehierarchy>
+	<animations>
+		
+	</animations>
+</skeleton>

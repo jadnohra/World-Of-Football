@@ -1,0 +1,21 @@
+<skelprops boneBoxScale="0.75" >
+	<bone name="Bip01 Pelvis" contributeToVolume="true" enableColl="true" gameName="pelvis" gameID="20" />
+	<bone name="Bip01 Spine" contributeToVolume="true" enableColl="true" gameName="spine" gameID="21" />
+	<bone name="Bip01 Spine1" contributeToVolume="true" enableColl="true" gameName="spine1" gameID="22" />
+	<bone name="Bip01 Neck" contributeToVolume="true" enableColl="true" gameName="neck" gameID="23" />
+	<bone name="Bip01 Head" contributeToVolume="true" enableColl="true" gameName="head" gameID="30"/>
+	<bone name="Bip01 L UpperArm" contributeToVolume="true" enableColl="true" gameName="L arm" />
+	<bone name="Bip01 L Forearm" contributeToVolume="true" enableColl="true" gameName="L arm" />
+	<bone name="Bip01 L Hand" contributeToVolume="true" enableColl="true" gameName="L hand" />
+	<bone name="Bip01 R UpperArm" contributeToVolume="true" enableColl="true" gameName="R arm" />
+	<bone name="Bip01 R Forearm" contributeToVolume="true" enableColl="true" gameName="R arm" />
+	<bone name="Bip01 R Hand" contributeToVolume="true" enableColl="true" gameName="R hand" />
+	<bone name="Bip01 L Thigh" contributeToVolume="true" enableColl="true" gameName="L thigh" gameID="24" />
+	<bone name="Bip01 L Calf" contributeToVolume="true" enableColl="true" gameName="L leg" gameID="10" />
+	<bone name="Bip01 L Foot" contributeToVolume="true" enableColl="true" gameName="L foot" gameID="11" />
+	<bone name="Bip01 L Toe0" contributeToVolume="true" enableColl="true" gameID="12" />
+	<bone name="Bip01 R Thigh" contributeToVolume="true" enableColl="true" gameName="R thigh" gameID="25" />
+	<bone name="Bip01 R Calf" contributeToVolume="true" enableColl="true" gameName="R leg" gameID="15" />
+	<bone name="Bip01 R Foot" contributeToVolume="true" enableColl="true" gameName="R foot" gameID="16" />
+	<bone name="Bip01 R Toe0" contributeToVolume="true" enableColl="true" gameID="17" />
+</skelprops>

@@ -1,0 +1,73 @@
+<WE>
+
+	<meshes>
+	
+		<hair_mullet remote="../footballerHair/fb_hair_10_mullet.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_mullet>
+		
+		<hair_army remote="../footballerHair/fb_hair_05_army.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_army>
+		
+		<hair_mohawk remote="../footballerHair/fb_hair_06_mohawk.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_mohawk>
+		
+		<hair_partside remote="../footballerHair/fb_hair_07_partside.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_partside>
+		
+		<hair_spike remote="../footballerHair/fb_hair_08_spike.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_spike>
+		
+		<hair_moptop remote="../footballerHair/fb_hair_09_moptop.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_moptop>
+		
+		<hair_mullet_ponytail remote="../footballerHair/fb_hair_12_mullet_ponytail.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_mullet_ponytail>
+		
+		<hair_headband remote="../footballerHair/fb_hair_13_headband.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_headband>
+		
+		<hair_headband_under remote="../footballerHair/fb_hair_14_headband_under.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_headband_under>
+		
+		<hair_ponytail remote="../footballerHair/fb_hair_15_ponytail.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_ponytail>
+		
+		<hair_afro remote="../footballerHair/fb_hair_16_afro.mesh.xml/mesh">
+			<tranform axis="0,1,0" angle="90" />
+			<tranform axis="0,0,1" angle="90" />
+			<tranform translate="-0.21,0.02,0" />
+		</hair_afro>
+		
+	</meshes>
+		
+</WE>

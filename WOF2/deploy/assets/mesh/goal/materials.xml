@@ -1,0 +1,33 @@
+﻿<WE>
+
+	<physicalProxy type="mesh" mapping="clone" />
+	
+	<materials>
+		<material_0 type="material" name="goal/post" poolId="auto" parameters="tex_post" >
+			<shadows enable="true" />
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.95" power="35" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="[tex_goal].png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+			</texture>
+		</material_0>
+		<material_1 type="material" name="goal/net" poolId="auto" parameters="tex_net" >
+			<shadows enable="true" />
+			<lighting enable="true" />
+			<culling disable="true" />
+			<alpha enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.95" power="35" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="[tex_goal].png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+			</texture>
+		</material_1>
+	</materials>
+	
+</WE>
+

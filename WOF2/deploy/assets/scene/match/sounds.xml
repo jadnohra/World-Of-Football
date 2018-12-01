@@ -1,0 +1,25 @@
+<WE>
+
+	<sounds>
+		
+		<kick remote="../../audio/kick3.wav" gainMultiplier="0.7" maxShockImpulse="12.5" responseCurvature="1.85" />
+		<dribble remote="../../audio/grass2.wav" gainMultiplier="0.35" minPitch="0.65" maxPitch="1.1" />
+		<tackle remote="../../audio/tackle2.wav" gainMultiplier="0.4" minPitch="0.9" maxPitch="1.1" />
+		
+		<fall remote="../../audio/tackle2.wav" gainMultiplier="0.4" minPitch="0.85" maxPitch="1.25" />
+		<jump remote="../../audio/jump0.wav" gainMultiplier="0.4" minPitch="0.85" maxPitch="1.25" />
+	
+		<!--bounce remote="../../audio/bounce0.wav" gainMultiplier="0.6" maxShockImpulse="10.0" responseCurvature="1.5" /-->
+		<bounce remote="../../audio/bounce6.wav" gainMultiplier="0.4" maxShockImpulse="10.0" responseCurvature="1.5" />
+		<hit_wood remote="../../audio/hit_wood2.wav" gainMultiplier="0.5" maxShockImpulse="10.0" responseCurvature="1.5" minPitch="0.85" maxPitch="1.25" />
+		<hit_glass remote="../../audio/hit_glass.wav" gainMultiplier="0.5" maxShockImpulse="10.0" responseCurvature="1.5" minPitch="0.85" maxPitch="1.25" />
+		<wall remote="../../audio/body_ball_hit.wav" gainMultiplier="0.5" maxShockImpulse="10.0" responseCurvature="1.5" />
+		<post remote="../../audio/post1.wav" gainMultiplier="0.5" maxShockImpulse="10.0" responseCurvature="1.5" minPitch="0.9" maxPitch="1.2" />
+		<net remote="../../audio/net0.wav" gainMultiplier="0.5" maxShockImpulse="30.0" responseCurvature="1.5" minPitch="0.9" maxPitch="1.2" />
+		<body_ball remote="../../audio/body_ball_hit.wav" gainMultiplier="0.5" maxShockImpulse="10.0" responseCurvature="1.5" minPitch="0.85" maxPitch="1.25" />
+		
+		<micpop remote="../../audio/micpop.wav" maxShockImpulse="40.0" responseCurvature="0.8" minPitch="0.85" maxPitch="1.25" />
+		
+	</sounds>		
+
+</WE>

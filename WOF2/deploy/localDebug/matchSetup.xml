@@ -1,0 +1,36 @@
+<WOF>
+
+	<teams>
+		<team id="0" path="barcelona.xml/team" skin="home" activeFootballerCount="2" >
+			<formation name="442" />
+		</team>
+		<team id="1" path="dortmund.xml/team" skin="away" activeFootballerCount="2" activeFootballerStartIndex="9" >
+			<formation name="442" />
+		</team>
+	</teams>
+	
+	<players>
+		<player ID="p21" team="1" select="Joystick" />
+		<player ID="p11" team="0" select="Keyboard Arrows" />
+		<!--player ID="p21" team="1" select="Joystick" instanceIndex="1" />		
+		<player ID="p22" team="1" select="Keyboard WASD" /-->		
+	</players>
+	
+	<!--UI>
+		<element type="image" texture="../assets/tex/dragon.png" pos="0.01,0.01" posType="viewport" anchor="left,top" scale="1.0" />
+		<element type="image" texture="../assets/tex/dragon.png" pos="0.99,0.99" posType="viewport" anchor="right,bottom" scale="1.0" />
+		<element type="image" texture="../assets/tex/dragon.png" color="red" pos="0.3,0.2" posType="viewport" scale="2.3" />
+		<element type="image" texture="../assets/tex/dragon.png" color="blue" pos="0.3,0.4" posType="viewport" alpha="0.99" scale="0.25" scaleType="viewport" />
+		<element type="image" texture="../assets/tex/ball_drop.png" color="random" pos="0.7,0.3" posType="viewport" alpha="0.99" size="100.0" />
+		<element type="image" texture="../assets/tex/dragon.png" color="yellow" pos="0.7,0.6" posType="viewport" alpha="0.99" size="100.0, 50.0"  />
+	</UI-->
+	
+	<tweaks showDebugScore="false" enableManipulateCam="true" />
+	<footballerSwitching mode="manual" />
+	
+	<onMatchStart>
+		<execute script="getScriptMatch().setupLighting(1.0, 0.8, Match.LightMethod_Fixed, 0.4, 1.0, 0.65);" />
+		<execute script="getScriptMatch().setFixedLightDirRUF(0.75, -1.0, -0.75, true);" />
+	</onMatchStart>
+	
+</WOF>

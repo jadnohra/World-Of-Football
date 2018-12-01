@@ -1,0 +1,73 @@
+<WE>
+
+	<formation name="442" >
+	
+		<mode name="kickoff" >
+			<position code="goalie" number="1" pos="0.0,-0.91" />
+			<position code="def1" number="2" pos="0.625,-0.58" >
+				<job type="ZoneDefence" region="RightDefence" trackedRegion="RightDefence" />
+			</position>
+			<position code="def2" number="3" pos="-0.625,-0.58" >
+				<job type="ZoneDefence" region="LeftDefence" trackedRegion="LeftDefence" />
+			</position>
+			<position code="mid1" number="4" pos="0.375,-0.33" />
+			<position code="def3" number="5" pos="0.25,-0.58" >
+				<job type="ZoneDefence" region="PenaltyBox" trackedRegion="DefenceZone" />		
+			</position>
+			<position code="def4" number="6" pos="-0.25,-0.58" >
+				<job type="ZoneDefence" region="PenaltyBox" trackedRegion="DefenceZone" />		
+			</position>
+			<position code="off_left" number="7" pos="-0.875,0.416" />
+			<position code="mid2" number="8" pos="-0.375,-0.33" />
+			<position code="off1" number="9" pos="0.125,-0.083" />
+			<position code="off2" number="10" pos="-0.05,-0.033" />
+			<position code="off_right" number="11" pos="0.875,0.416" />
+			
+			<region name="PenaltyBox" type="Box" min="-[PenaltyBoxHalfWidth],[PenaltyBoxFwdMin]" max="[PenaltyBoxHalfWidth],[PenaltyBoxFwdMax]" />
+			<region name="GoalBox" type="Box" min="-[GoalBoxHalfWidth],[GoalBoxFwdMin]" max="[GoalBoxHalfWidth],[GoalBoxFwdMax]" />
+			<region name="DefenceZone" type="Box" min="-[PitchHalfWidth],-[PitchHalfLength]" max="[PitchHalfWidth],{0.5*[GoalBoxFwdMax]}" />
+			<region name="RightDefence" type="Box" min="{0.25*[PitchHalfWidth]},-[PitchHalfLength]" max="[PitchHalfWidth],{0.5*[PenaltyBoxFwdMax]}" />
+			<region name="LeftDefence" type="Box" min="-[PitchHalfWidth],-[PitchHalfLength]" max="-{0.25*[PitchHalfWidth]},{0.5*[PenaltyBoxFwdMax]}" />
+			
+		</mode>
+		
+		<mode name="offense" >
+			<position code="goalie" number="1" pos="0.0,-0.84" />
+			<position code="def1" number="2" pos="0.6,-0.3" />
+			<position code="def2" number="3" pos="-0.6,-0.3" />
+			<position code="mid1" number="4" pos="0.5,0.3" />
+			<position code="def3" number="5" pos="0.15,-0.2" />
+			<position code="def4" number="6" pos="-0.1,-0.1" />
+			<position code="off_left" number="7" pos="-0.8,0.7" />
+			<position code="mid2" number="8" pos="-0.5,0.35" />
+			<position code="off1" number="9" pos="0.2,0.65" />
+			<position code="off2" number="10" pos="-0.2,0.68" />
+			<position code="off_right" number="11" pos="0.8,0.7" />
+			
+			<region name="PenaltyBox" type="Box" min="-[PenaltyBoxHalfWidth],[PenaltyBoxFwdMin]" max="[PenaltyBoxHalfWidth],[PenaltyBoxFwdMax]" />
+			<region name="GoalBox" type="Box" min="-[GoalBoxHalfWidth],[GoalBoxFwdMin]" max="[GoalBoxHalfWidth],[GoalBoxFwdMax]" />
+			
+		</mode>
+		
+		<mode name="defense" >
+			<position code="goalie" number="1" pos="0.0,-0.91" />
+			<position code="def1" number="2" pos="0.5,-0.78" />
+			<position code="def2" number="3" pos="-0.5,-0.78" />
+			<position code="mid1" number="4" pos="0.3,-0.53" />
+			<position code="def3" number="5" pos="0.35,-0.76" />
+			<position code="def4" number="6" pos="-0.35,-0.76" />
+			<position code="off_left" number="7" pos="-0.75,-0.1" />
+			<position code="mid2" number="8" pos="-0.34,-0.63" />
+			<position code="off1" number="9" pos="0.2,-0.2" />
+			<position code="off2" number="10" pos="-0.1,-0.1" />
+			<position code="off_right" number="11" pos="0.75,-0.15" />
+			
+			<region name="PenaltyBox" type="Box" min="-[PenaltyBoxHalfWidth],[PenaltyBoxFwdMin]" max="[PenaltyBoxHalfWidth],[PenaltyBoxFwdMax]" />
+			<region name="GoalBox" type="Box" min="-[GoalBoxHalfWidth],[GoalBoxFwdMin]" max="[GoalBoxHalfWidth],[GoalBoxFwdMax]" />
+			
+		</mode>
+	
+	</formation>
+	
+
+</WE>

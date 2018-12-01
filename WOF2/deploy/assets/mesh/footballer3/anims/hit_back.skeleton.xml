@@ -1,0 +1,1563 @@
+<skeleton>
+	<animations>
+	
+	
+		<animation name="hit_back" length="10.0" speed="10.0">
+			<tracks>
+				<track bone = "Bip01">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="-3.44743" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000213125" y="-0.00154042" z="0.999999" />
+							</rotate>
+						</keyframe>
+						<keyframe time="1.66667">
+							<translate x="0.0" y="-3.44743" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000239437" y="-0.00173059" z="0.999998" />
+							</rotate>
+						</keyframe>
+						<keyframe time="3.75">
+							<translate x="0.0" y="-7.2315" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000213125" y="-0.00154042" z="0.999999" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="-11.9647" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000210932" y="-0.00152457" z="0.999999" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="-9.63557" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000213125" y="-0.00154042" z="0.999999" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="-9.63557" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000213125" y="-0.00154042" z="0.999999" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_Footsteps">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="3.58192" />
+							<rotate angle="0.0">
+								<axis x="0.00154042" y="0.000213127" z="-0.999999" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="9.63556" />
+							<rotate angle="0.0">
+								<axis x="0.00154042" y="0.000213127" z="-0.999999" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_Pelvis">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.30528" y="0.952263" z="-0.000396235" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.968315" y="0.249733" z="1.44699e-005" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.305278" y="0.952263" z="-0.000145113" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.30528" y="0.952263" z="-0.000389324" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.30528" y="0.952263" z="-0.000396235" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.30528" y="0.952263" z="-0.000396235" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_Spine">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000493786" y="0.00137283" z="-0.999999" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.00708008" y="0.00190992" z="0.0" />
+							<rotate angle="-0.526158">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.00593567" y="0.00131386" z="0.0" />
+							<rotate angle="-0.434585">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.000362396" y="0.0" z="0.0" />
+							<rotate angle="-0.0255593">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.000358582" y="0.0" z="0.0" />
+							<rotate angle="-0.0255593">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.000493786" y="0.00137283" z="-0.999999" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_Spine1">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.00263977" y="0.000229876" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.00425339" y="0.000603052" z="0.0" />
+							<rotate angle="-0.283036">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.00858879" y="0.00278159" z="-0.00186274" />
+							<rotate angle="-0.618212">
+								<axis x="-0.240889" y="0.0956895" z="-0.965824" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.00505447" y="0.000860445" z="0.0" />
+							<rotate angle="-0.338412">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.00628853" y="0.00135704" z="0.0" />
+							<rotate angle="-0.426265">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.00264359" y="0.000229872" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_Neck">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="2.24062e-005" y="-1.19012e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="-0.000360489" y="-4.27575e-005" z="0.0" />
+							<rotate angle="-0.0544445">
+								<axis x="0.0" y="-2.7736e-006" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.0848672" y="0.0572051" z="0.994749" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.00370979" y="0.00175314" z="0.0" />
+							<rotate angle="-0.618844">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.00371361" y="0.00175311" z="0.0" />
+							<rotate angle="-0.618844">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="2.24062e-005" y="-1.19012e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_Head">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.0872659">
+								<axis x="0.0" y="-2.7736e-006" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.757061">
+								<axis x="0.0" y="2.7736e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.232924">
+								<axis x="0.0933351" y="-0.982668" z="-0.160161" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.384863">
+								<axis x="-0.337406" y="0.0617494" z="0.939332" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.454866">
+								<axis x="-0.146273" y="0.0334669" z="0.988678" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.0872659">
+								<axis x="0.0" y="-2.7736e-006" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Clavicle">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.583788" y="0.809171" z="0.0665913" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="-0.00363147" y="-0.033861" z="0.0" />
+							<rotate angle="-0.0544445">
+								<axis x="-0.94492" y="-6.87537e-007" z="-0.327303" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.304054">
+								<axis x="0.327303" y="0.0" z="-0.94492" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.163378" y="0.344272" z="0.0" />
+							<rotate angle="-0.636374">
+								<axis x="0.842069" y="0.0733115" z="0.534365" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.163381" y="0.34426" z="0.0" />
+							<rotate angle="-0.618844">
+								<axis x="0.94492" y="0.0" z="0.327303" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.583788" y="0.809171" z="0.0665913" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_UpperArm">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.471663">
+								<axis x="0.0698812" y="-0.776006" z="-0.626842" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.826875">
+								<axis x="0.679016" y="-0.327453" z="0.657048" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.81272">
+								<axis x="0.438593" y="-0.0118818" z="0.898607" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.549405">
+								<axis x="0.595146" y="-0.14587" z="0.790268" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.54956">
+								<axis x="0.391215" y="-0.890999" z="0.230372" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.471663">
+								<axis x="0.0698812" y="-0.776006" z="-0.626842" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Forearm">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.872665">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.980401">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.399937">
+								<axis x="0.0" y="-1.43988e-007" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.76231">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.04448">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.872665">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Hand">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.442385" y="-0.759785" z="-0.476469" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.147512" y="-0.574028" z="0.805439" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.935575" y="0.336164" z="0.108131" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.226416" y="0.743469" z="-0.629277" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.135861" y="0.990597" z="0.0161154" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.442385" y="-0.759785" z="-0.476469" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger0">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.242456" y="-0.0392309" z="-0.969369" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.122843" y="-0.141133" z="-0.98234" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0264943" y="0.348033" z="0.937108" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.922887" y="-0.283953" z="0.260096" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.921163" y="0.360979" z="-0.145437" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.242456" y="-0.0392309" z="-0.969369" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger01">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0510922" y="0.00766629" z="0.998664" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.895781" y="0.36876" z="-0.248179" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.00501881" y="-0.0396591" z="0.999201" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.323187" y="-0.254597" z="0.911444" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.293236" y="-0.387834" z="0.87384" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0510922" y="0.00766629" z="0.998664" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger1">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0276142" y="0.950175" z="-0.310492" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.867405" y="0.404259" z="-0.290144" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.480709" y="0.871523" z="0.0967783" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="-1.04904e-005" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.772581" y="0.560925" z="0.297461" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.294449" y="0.239436" z="-0.925187" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="-1.23978e-005" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0276142" y="0.950175" z="-0.310492" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger11">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.39216">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="-1.39566e-007" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger2">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="1.75734e-007" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.19608">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="-3.02056e-007" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="1.75734e-007" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger21">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.588241">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger3">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.0551171" y="0.305781" z="-0.950505" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.366875" y="0.731617" z="-0.574578" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.567763" y="0.541017" z="-0.62044" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0274825" y="-0.0321428" z="-0.999105" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.120569" y="0.804773" z="-0.581209" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.0551171" y="0.305781" z="-0.950505" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger31">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="-1.0051e-005" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.784321">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="-1.20345e-005" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger4">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.4902">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Finger41">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.392161">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Clavicle">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.576063" y="-0.811892" z="0.0947726" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="-0.0036307" y="-0.0338604" z="0.0" />
+							<rotate angle="-0.0544445">
+								<axis x="0.944919" y="2.38271e-007" z="-0.327303" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.272095">
+								<axis x="0.327303" y="0.0" z="0.944919" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.163378" y="0.344272" z="0.0" />
+							<rotate angle="-0.677509">
+								<axis x="-0.988427" y="0.128011" z="-0.0813903" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.163381" y="0.34426" z="0.0" />
+							<rotate angle="-0.618844">
+								<axis x="-0.944919" y="0.0" z="0.327303" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.576063" y="-0.811892" z="0.0947726" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_UpperArm">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.471663">
+								<axis x="-0.0698813" y="0.776006" z="-0.626842" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.826875">
+								<axis x="-0.679016" y="0.327453" z="0.657048" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.58502">
+								<axis x="-0.774879" y="-0.264829" z="0.573958" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.57451">
+								<axis x="-0.0443924" y="0.536599" z="0.842669" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.248523">
+								<axis x="-0.5992" y="0.623006" z="0.502814" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.471663">
+								<axis x="-0.0698813" y="0.776006" z="-0.626842" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Forearm">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.872665">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.980401">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.27968">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.35867">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.03343">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.872665">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Hand">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.0744416" y="0.80385" z="0.590155" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.073067" y="0.485954" z="0.870925" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.338673" y="-0.459961" z="0.820814" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.396926" y="0.0676684" z="0.915353" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="-1.03217e-005" />
+							<rotate angle="0.0">
+								<axis x="0.349203" y="0.306761" z="0.885412" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.0744416" y="0.80385" z="0.590155" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger0">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.142171" y="0.435369" z="-0.888955" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.339484" y="0.0466097" z="-0.939456" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.55543" y="-0.00790961" z="-0.831526" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.364211" y="0.927601" z="0.0831132" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.278258" y="0.356016" z="0.89209" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.142171" y="0.435369" z="-0.888955" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger01">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.103318" y="-0.307514" z="0.945918" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.690634" y="0.350943" z="0.632348" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.232002" y="-0.310488" z="0.921831" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.368564" y="-0.569105" z="0.735038" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.142766" y="0.804293" z="0.576828" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.103318" y="-0.307514" z="0.945918" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger1">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.352333" y="-0.888114" z="-0.295152" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0681818" y="-0.732603" z="-0.677233" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.865476" y="-0.426033" z="-0.263528" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.8722" y="0.238095" z="-0.427292" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.952649" y="0.302899" z="-0.0266725" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.352333" y="-0.888114" z="-0.295152" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger11">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.39216">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="1.33805e-007" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger2">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.19608">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="-1.1986e-007" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.174532">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger21">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.588241">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.523599">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger3">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.302121" y="-0.59322" z="-0.746199" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.869588" y="-0.492011" z="-0.0417306" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.359575" y="-0.195119" z="-0.912488" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.190881" y="-0.144127" z="-0.970975" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.719565" y="0.302891" z="-0.624886" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.302121" y="-0.59322" z="-0.746199" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger31">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.784321">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.698132">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger4">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.490201">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.436332">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Finger41">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="0.833333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.392161">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="2.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="7.91667">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.349066">
+								<axis x="0.0" y="0.0" z="-1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Thigh">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.268108">
+								<axis x="0.585588" y="-0.38448" z="-0.713625" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.00272179" y="0.20026" z="0.0" />
+							<rotate angle="-0.527473">
+								<axis x="0.258808" y="-0.285963" z="-0.922629" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.388508">
+								<axis x="0.380846" y="-0.312194" z="-0.87034" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Calf">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.568498">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.36192">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.07678">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Foot">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.465135">
+								<axis x="0.561222" y="0.284996" z="-0.77705" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.798172">
+								<axis x="0.261301" y="0.298186" z="-0.918045" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.782049">
+								<axis x="0.314311" y="0.236137" z="-0.919482" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_L_Toe0">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="0.0" y="1.0" z="-0.00100885" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.143393">
+								<axis x="9.48704e-007" y="-9.59887e-007" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="1.04306e-006" y="1.0" z="3.05418e-006" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Thigh">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.345716">
+								<axis x="-0.752148" y="0.342603" z="-0.562935" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.00272179" y="0.20026" z="0.0" />
+							<rotate angle="-0.609169">
+								<axis x="-0.385178" y="0.30484" z="-0.87104" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.446916">
+								<axis x="-0.559" y="0.323708" z="-0.763369" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Calf">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.532203">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.37363">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-1.04049">
+								<axis x="0.0" y="0.0" z="1.0" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Foot">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.378931">
+								<axis x="-0.418564" y="-0.29694" z="-0.858272" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.674496">
+								<axis x="-0.161686" y="-0.280236" z="-0.946216" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.714519">
+								<axis x="-0.20561" y="-0.204749" z="-0.956976" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+				<track bone = "Bip01_R_Toe0">
+					<keyframes>
+						<keyframe time="0.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.333144" y="0.936841" z="-0.106508" />
+							</rotate>
+						</keyframe>
+						<keyframe time="5.83333">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="-0.208819">
+								<axis x="0.0" y="1.09315e-006" z="-1.0" />
+							</rotate>
+						</keyframe>
+						<keyframe time="10.0">
+							<translate x="0.0" y="0.0" z="0.0" />
+							<rotate angle="0.0">
+								<axis x="-0.333147" y="0.936847" z="-0.106447" />
+							</rotate>
+						</keyframe>
+					</keyframes>
+				</track>
+			</tracks>
+		</animation>
+	
+	</animations>
+</skeleton>	

@@ -1,0 +1,201 @@
+<WE>
+
+	<!--physicalProxy type="mesh" mapping="merge" material="[physMaterial]" parameters="physMaterial" >
+		
+		<simplification enabled="true" mode="planar" planarAngle="2.5" loopMode="iterate" stepLimit="-1" considerAesthetics="true" useIslands="true" />
+			
+	</physicalProxy-->
+
+	<materials>
+		
+		<material0 type="material" name="stand/grey_dark" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.37" />
+			<diffuse value="0.37" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="grey_dark.png " mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material0>
+		
+		<material1 type="material" name="stand/grey" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="grey.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material1>
+		
+		<material2 type="material" name="stand/wall" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8,0.3,0.3" />
+			<diffuse value="0.8,0.3,0.3" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="wall_brick_01.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material2>
+		
+		<material3 type="material" name="stand/ceiling" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.55,0.55,0.85" />
+			<diffuse value="0.55,0.55,0.85" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="roof_01.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material3>
+		
+		<material4 type="material" name="stand/roof_tiles" poolId="auto">
+			<culling disable="true" />
+			<alpha enable="true" />
+			<lighting enable="true" />
+			<ambient value="1,1,0.8" />
+			<diffuse value="1,1,0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="roof_tiles.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material4>
+		
+		<material5 type="material" name="stand/steps" poolId="auto">
+			<culling disable="true" />
+			<alpha enable="true" />
+			<lighting enable="true" />
+			<ambient value="1,1,0.8" />
+			<diffuse value="1,1,0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="steps.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material5>
+		
+		<material6 type="material" name="stand/boards" poolId="auto">
+			<culling disable="true" />
+			<alpha enable="true" />
+			<lighting enable="true" />
+			<ambient value="1,1,0.8" />
+			<diffuse value="1,1,0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="boards.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material6>
+		
+		<material7 type="material" name="stand/fence" poolId="auto">
+			<culling disable="true" />
+			<alpha enable="true" />
+			<lighting enable="true" />
+			<ambient value="1,1,0.8" />
+			<diffuse value="1,1,0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" wrap="true" stage="0" >
+				<source file="fence.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material7>
+		
+		<material8 type="material" name="stand/door" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="door.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material8>
+		
+		<material9 type="material" name="stand/window_house" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="window_house.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material9>
+		
+		<material10 type="material" name="stand/window_lounge" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="lounge.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material10>
+		
+				<material11 type="material" name="stand/window_big" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="window_big.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material11>
+
+		</materials>
+
+</WE>

@@ -1,0 +1,6 @@
+EXPORTS
+	newWOFDebugger
+	deleteWOFDebugger
+	setGame
+	start
+	update

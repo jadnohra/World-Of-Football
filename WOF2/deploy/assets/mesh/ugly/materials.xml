@@ -1,0 +1,30 @@
+<WE>
+	<physicalProxy type="mesh" mapping="merge" material="[physMaterial]" parameters="physMaterial" >
+		
+		<simplification enabled="false"/>
+			
+	</physicalProxy>
+	
+
+	<materials>
+	
+			<material type="material" name="ugly" poolId="auto" parameters="ugly" >
+			<shadows enable="true" />
+			<culling disable="true" />
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="true" value="0.75" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="ugly.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material>
+	
+	</materials>
+	
+</WE>

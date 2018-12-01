@@ -1,0 +1,10 @@
+<WE>
+
+	<meshes>
+	
+		<footballer remote="../footballer3/footballer3.mesh.xml/mesh" />
+		<!--footballer remote="../footballer4/fb_01.mesh.xml/mesh" /-->
+		
+	</meshes>
+		
+</WE>

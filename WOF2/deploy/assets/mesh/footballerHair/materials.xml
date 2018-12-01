@@ -1,0 +1,25 @@
+<WE>
+
+	<materials>
+		
+		<material_0 type="material" name="footballer3/hair" poolId="auto" parameters="color" >
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<culling disable="true" />
+			<alpha enable="true" />
+			<specular enable="true" value="0.7" power="20" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="tex/hair_[color].png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_0>
+	
+		
+	</materials>
+	
+</WE>

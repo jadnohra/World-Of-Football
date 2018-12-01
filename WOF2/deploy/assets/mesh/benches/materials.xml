@@ -1,0 +1,63 @@
+<WE>
+
+	<physicalProxy type="mesh" mapping="clone">
+		
+		<simplification enabled="true" mode="planar" planarAngle="2.5" loopMode="iterate" stepLimit="-1" considerAesthetics="true" useIslands="true" />
+			
+	</physicalProxy>
+
+	<materials>
+		
+		<material_0 type="material" name="benches/bench_seats" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="seats_01.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_0>
+		
+		<material_1 type="material" name="benches/bench_frame" poolId="auto">
+			<shadows enable="true" />
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="bench_frame.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_1>
+		
+		<material_2 type="material" name="benches/bench_glass" poolId="auto">
+			<shadows enable="true" />
+			<culling disable="true" />
+			<alpha enable="true" />
+			<lighting enable="true" />
+			<ambient value="0.8" />
+			<diffuse value="0.8" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+			<texture minFilter="linear" magFilter="linear" mipFilter="point" stage="0" >
+				<source file="bench_glass.png" mipFilter="default" genMipmaps="true" poolId="auto"/>
+				<constraints>
+					<minQuality minFilter="point" magFilter="linear" mipFilter="point" />
+					<maxQuality minFilter="point" magFilter="linear" mipFilter="point" />
+				</constraints>
+			</texture>
+		</material_2>
+		
+		
+	</materials>
+	
+</WE>

@@ -1,0 +1,17 @@
+<WE>
+
+	<physicalProxy type="mesh" mapping="merge" material="wood/hard" />
+
+	<materials>
+		
+		<material_0 type="material" name="goal_proxy" poolId="auto">
+			<lighting enable="true" />
+			<ambient value="0.588" />
+			<diffuse value="0.588" />
+			<emmisive value="0,0,0" />
+			<specular enable="false" value="0.9" power="50" />
+		</material_0>
+				
+	</materials>
+	
+</WE>

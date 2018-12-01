@@ -1,0 +1,6 @@
+<WE>
+
+	<scene remote="scene/match/match.xml/scene" />
+	<plugins path="plugins/" />
+	
+</WE>

@@ -1,0 +1,63 @@
+<WOF>
+
+	<teams>
+		<team id="0" path="barcelona.xml/team" skin="home" _activeFootballerCount="2" >
+			<formation name="442" />
+		</team>
+		<team id="1" path="dortmund.xml/team" skin="away" activeFootballerCount="2" activeFootballerStartIndex="9" >
+			<formation name="442" />
+		</team>
+	</teams>
+	
+	<players>
+		<player ID="p21" team="1" select="Joystick" />		
+		<player ID="p22" team="1" select="Keyboard Arrows" />
+	</players>
+	
+	
+	<!--UI>
+		<element type="image" texture="../assets/tex/block_logo_dortmund.png" pos="0.02, 0.02" alpha="0.5" posType="viewport" anchor="left,top" scale="0.0375" scaleType="viewport" />
+		<element type="image" texture="../assets/tex/block_logo_barcelona.png" pos="0.02, 0.07" alpha="0.5" posType="viewport" anchor="left,top" scale="0.0375" scaleType="viewport" />
+		
+		<element type="image" texture="../assets/tex/block_name_dortmund.png" pos="0.06, 0.02" alpha="0.5" posType="viewport" anchor="left,top" scale="0.1175" scaleType="viewport"/>
+		<element type="image" texture="../assets/tex/block_name_barcelona.png" pos="0.06, 0.07" alpha="0.5" posType="viewport" anchor="left,top" scale="0.1175" scaleType="viewport" />
+		
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.18, 0.02" alpha="0.5" posType="viewport" anchor="left,top" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.18, 0.07" alpha="0.5" posType="viewport" anchor="left,top" scale="0.75" />
+		
+		<element type="image" texture="../assets/tex/block_time.png" pos="0.98, 0.02" alpha="0.5" posType="viewport" anchor="right,top" scale="0.75" />
+		
+		<element type="image" texture="../assets/tex/block_logo_dortmund.png" pos="0.02, 0.98" alpha="0.5" posType="viewport" anchor="left,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_name_dortmund.png" pos="0.06, 0.98" alpha="0.5" posType="viewport" anchor="left,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.18, 0.98" alpha="0.5" posType="viewport" anchor="left,bottom" scale="0.75" />
+		
+		<element type="image" texture="../assets/tex/block_logo_barcelona.png" pos="0.98, 0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_name_barcelona.png" pos="0.94, 0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.82, 0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" />
+	</UI-->
+	
+	<tweaks showDebugScore="true" />
+	<footballerSwitching mode="manual" />
+	
+	<onMatchStart>
+	
+		<!-- setupLighting(global_ambient_scale, shadow_scale, Match.LightMethod_Fixed, light_ambient_scale, light_diffuse_scale, light_specular_scale); /-->
+		<!-- setFixedLightDirRUF(right, down (negative), forward, true); -->
+		
+		<!--execute script="testMiniGame(0, 20, 2, 0.5, 1, 10, 10);" /-->
+		<!--execute script="getScriptMatch().setupLighting(1.0, 0.65, Match.LightMethod_Fixed, 0.9, 1.0, 0.6);" />
+		<execute script="getScriptMatch().setFixedLightDirRUF(-0.05, -0.7, -0.2, true);" /-->
+		<execute script="getScriptMatch().setupLighting(1.0, 0.70, Match.LightMethod_Fixed, 0.18, 1.0, 0.5);" />
+		<execute script="getScriptMatch().setFixedLightDirRUF(0.75, -1.0, -0.75, true);" />
+		
+		<!-- Evening dark mood with one sided spot light -->
+		<!--execute script="getScriptMatch().setupLighting(0.0, 0.65, Match.LightMethod_Fixed, 0.2, 1.0, 0.6);" />
+		<execute script="getScriptMatch().setFixedLightDirRUF(0.5, -0.1, 0.0, true);" /-->
+		
+		<!--execute script="getScriptMatch().colorizeShadow(0.3, 0.3, 1.5);" /-->
+		
+		
+		
+	</onMatchStart>
+	
+</WOF>

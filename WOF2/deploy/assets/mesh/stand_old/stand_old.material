@@ -1,0 +1,198 @@
+material stand_old/grey_dark
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture grey_dark.png 
+            }
+        }
+    }
+}
+
+material stand_old/grey
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture grey.png 
+            }
+        }
+    }
+}
+
+material stand_old/wall
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture wall_brick_01.png 
+            }
+        }
+    }
+}
+
+material stand_old/ceiling
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture roof_01.png 
+            }
+        }
+    }
+}
+
+material stand_old/roof_tiles
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture roof_tiles.png 
+            }
+        }
+    }
+}
+
+material stand_old/steps
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588235 0.588235 0.588235
+            diffuse 0.588235 0.588235 0.588235
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture steps.png 
+            }
+        }
+    }
+}
+
+material stand_old/boards
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture boards.png 
+            }
+        }
+    }
+}
+
+material stand_old/fence
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture fence.png 
+            }
+        }
+    }
+}
+
+material stand_old/door
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door.png 
+            }
+        }
+    }
+}
+
+material stand_old/window_house
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 0.501961 0.501961 0.501961
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture window_house.png 
+            }
+        }
+    }
+}
+
+material stand_old/window_lounge
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.588 0.588 0.588
+            diffuse 0.588 0.588 0.588
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture lounge.png 
+            }
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+<WE>
+
+	<videoSettings windowed="true" width="1024" height="768" vSync="false" antiAlias="true" antiAliasSamples="2" maxColorDepth="0" />
+	<performance processPriority="0" processorUsage="0" />
+	<paths splash="../res/loading.png" loadTrack="../res/load.ogg" assets="../assets/debug/" local="../localDebug/" plugins="../assets/plugins/" />
+	
+	<tweak 
+		loadTrackVolume="0.3" splashColor="white" enableDebugKeys="true"
+		enableDebugger="false" debuggerPath="../../../WOF_Debugger/deploy/libdebug/WOF_Debugger_d.dll" 
+		dumpInputDevices="false" dumpInputDevicesPath="InputDevicesDump.txt"
+		enableMultiThreadLoad="false"
+	/>
+
+	<!--RendererD3D9>
+		<CapsOverrides MaxVertexBlendMatrices="2" MaxVertexBlendMatrixIndex="-1" />
+	</RendererD3D9-->
+	
+</WE>

@@ -1,0 +1,73 @@
+<WOF>
+
+	<teams>
+		<team id="0" path="barcelona.xml/team" skin="home" activeFootballerCount="2">
+			<formation name="442" />
+		</team>
+		<team id="1" path="dortmund.xml/team" skin="away" activeFootballerCount="0" >
+			<formation name="442" />
+		</team>
+	</teams>
+	
+	<players>
+		<player ID="p11" team="0" select="Joystick" />
+		<!--player ID="p12" team="0" select="Keyboard Arrows" />
+		<player ID="p21" team="1" select="Joystick" instanceIndex="1" />		
+		<player ID="p22" team="1" select="Keyboard WASD" /-->
+	</players>
+	
+	<!--UI>
+		<element type="image" texture="../assets/tex/dragon.png" pos="0.01,0.01" posType="viewport" anchor="left,top" scale="1.0" />
+		<element type="image" texture="../assets/tex/dragon.png" pos="0.99,0.99" posType="viewport" anchor="right,bottom" scale="1.0" />
+		<element type="image" texture="../assets/tex/dragon.png" color="red" pos="0.3,0.2" posType="viewport" scale="2.3" />
+		<element type="image" texture="../assets/tex/dragon.png" color="blue" pos="0.3,0.4" posType="viewport" alpha="0.99" scale="0.25" scaleType="viewport" />
+		<element type="image" texture="../assets/tex/ball_drop.png" color="random" pos="0.7,0.3" posType="viewport" alpha="0.99" size="100.0" />
+		<element type="image" texture="../assets/tex/dragon.png" color="yellow" pos="0.7,0.6" posType="viewport" alpha="0.99" size="100.0, 50.0"  />
+	</UI-->
+	
+	<UI>
+		<!--element type="image" texture="../assets/tex/block_dortmund.png" pos="0.05,0.065" alpha="0.5" posType="viewport" anchor="left,top" scale="1.0" /-->
+		<!--element type="image" texture="../assets/tex/block_barcelona.png" pos="0.95,0.065" alpha="0.5" posType="viewport" anchor="right,top" scale="1.0" /-->
+		<element type="image" texture="../assets/tex/block_logo_dortmund.png" pos="0.02, 0.02" alpha="0.5" posType="viewport" anchor="left,top" scale="0.0375" scaleType="viewport" />
+		<element type="image" texture="../assets/tex/block_logo_barcelona.png" pos="0.02, 0.07" alpha="0.5" posType="viewport" anchor="left,top" scale="0.0375" scaleType="viewport" />
+		
+		<element type="image" texture="../assets/tex/block_name_dortmund.png" pos="0.06, 0.02" alpha="0.5" posType="viewport" anchor="left,top" scale="0.1175" scaleType="viewport"/>
+		<element type="image" texture="../assets/tex/block_name_barcelona.png" pos="0.06, 0.07" alpha="0.5" posType="viewport" anchor="left,top" scale="0.1175" scaleType="viewport" />
+		
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.18, 0.02" alpha="0.5" posType="viewport" anchor="left,top" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.18, 0.07" alpha="0.5" posType="viewport" anchor="left,top" scale="0.75" />
+				
+		
+		<element type="image" texture="../assets/tex/block_time.png" pos="0.98, 0.02" alpha="0.5" posType="viewport" anchor="right,top" scale="0.75" />
+		
+		
+		<element type="image" texture="../assets/tex/block_logo_dortmund.png" pos="0.02, 0.98" alpha="0.5" posType="viewport" anchor="left,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_name_dortmund.png" pos="0.06, 0.98" alpha="0.5" posType="viewport" anchor="left,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.18, 0.98" alpha="0.5" posType="viewport" anchor="left,bottom" scale="0.75" />
+			
+		<!--element type="image" texture="../assets/tex/block_player_home.png" pos="0.02,0.98" alpha="0.99" posType="viewport" anchor="left,bottom" scale="0.75" /-->
+		
+		<element type="image" texture="../assets/tex/block_logo_barcelona.png" pos="0.98, 0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_name_barcelona.png" pos="0.94, 0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" />
+		<element type="image" texture="../assets/tex/block_score.png" pos="0.82, 0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" />
+		
+		
+		<!--element type="image" texture="../assets/tex/block_player_away.png" pos="0.98,0.98" alpha="0.5" posType="viewport" anchor="right,bottom" scale="0.75" /-->
+		<!--element type="image" texture="../assets/tex/block_test.png" pos="0.95,0.065" alpha="0.5" posType="viewport" anchor="right,bottom" scale="1.0" /-->
+		<!--element type="image" texture="../assets/tex/block_test.png" pos="0.1,0.1" alpha="0.5" posType="viewport" anchor="left,top" scale="1.0" />
+		<element type="image" texture="../assets/tex/dragon.png" pos="0.99,0.99" posType="viewport" anchor="right,bottom" scale="1.0" />
+		<element type="image" texture="../assets/tex/dragon.png" color="red" pos="0.3,0.2" posType="viewport" scale="2.3" />
+		<element type="image" texture="../assets/tex/dragon.png" color="blue" pos="0.3,0.4" posType="viewport" alpha="0.99" scale="0.25" scaleType="viewport" /-->
+		<!--element type="image" texture="../assets/tex/ball_drop.png" pos="0.7,0.3" posType="viewport" alpha="0.99" size="100.0" /-->
+		<!--element type="image" texture="../assets/tex/dragon.png" color="yellow" pos="0.7,0.6" posType="viewport" alpha="0.99" size="100.0, 50.0"  /-->
+	</UI>
+	
+	<tweaks enableManipulateCam="true" />
+	<footballerSwitching mode="auto" />
+	
+	<onMatchStart>
+		<execute script="getScriptMatch().setupLighting(1.0, 0.70, Match.LightMethod_Fixed, 0.18, 1.0, 0.5);" />
+		<execute script="getScriptMatch().setFixedLightDirRUF(0.75, -1.0, -0.75, true);" />
+	</onMatchStart>
+	
+</WOF>

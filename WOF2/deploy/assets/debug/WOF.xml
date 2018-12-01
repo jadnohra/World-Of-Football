@@ -1,0 +1,6 @@
+<WE>
+
+	<scene remote="../scene/match/match.xml/scene" _inject="true" IsDebugBuild="true" />
+	<plugins path="../plugins/" />
+	
+</WE>

@@ -1,0 +1,610 @@
+﻿<WE loadChunk="scene" >
+
+<scene type="scene" name="WOF" format="0.2" coordSys="WE" unitsPerMeter="1" unitName="m" >
+
+	<debug tex="../../tex/checkers.png" />
+	<shadowing enable="true" />
+		
+	<game>
+	
+		<tweaks
+			pauseIfNotActive="true" renderIfNotActive="true"
+
+			inputDeviceProfilePath="../../inputDeviceProfile/"
+			teamFormationsPath="../../teamFormation/"
+			teamsPath="../../team/"
+			
+			scriptPath="../../script/" mainScript="main"
+		
+			sharedControlDelay="2" enableAI="false" 
+
+			gravityCoeff="0.65"
+			enableAirDrag="true" enableAirMagnus="false" 
+			airDragEffectCoeff="0.75"
+			
+			shockAudioScale="1.0" audioVolume="1.5" audioMaxSounds="6"
+			matchAudioAmbientVolume="0.013" matchAudioRefDist="25.0" matchAudioMaxDist="300.0" matchAudioRolloff="1.0"
+			enableSoundMerge="true" soundMergeTime="0.1"
+			
+			cameraRelativeInput="true" cameraRelativeInputDiscreetDirections="true"
+		
+			showPitchBallBounceMarker="true" pitchBallBounceMarkerHeight="1.5"
+		
+			vibrateCOC="false"
+			vibrateAttachedBall="false" rotateAttachedBall="true"
+			
+			showDebugScore="false"
+		/>
+		
+		<arrows size="0.05" texture="../../tex/arrow.png" heightOffset="0.02" alpha="0.99" blendType="alpha" texFilter="aniso" />
+		
+		<COC radius="1" height="1.6" texturesPath="../../tex/coc/" heightOffset="0.02" renderRadius="1.5" alpha="0.99" blendType="alpha" texFilter="aniso" >
+			<skins>
+				<skin> <COC color="red" texture="coc.png" /> <activeCOC color="red" texture="coc_active.png" /> </skin>
+				<skin> <COC color="blue" texture="coc.png" /> <activeCOC color="blue" texture="coc_active.png" /> </skin>
+			</skins>
+		</COC>
+		
+		<shapes>
+			<circle  texture="../../tex/circle.png" scale="1.0" alpha="0.99" blendType="alpha" texFilter="aniso" />
+			<quad texture="../../tex/quad.png" scale="1.0" alpha="0.99" blendType="alpha" texFilter="aniso" />
+		</shapes>
+		
+		<ballPitchMarker scale="1.0" texture="../../tex/ball_drop.png" heightOffset="0.015" alpha="0.99" texFilter="aniso" blendType="alpha" />
+		
+		<pitchInfo width="90.0" length="120.0" penaltyBoxWidth="40" penaltyBoxLength="17" goalBoxWidth="18.0" goalBoxLength="5.0" goalWidth="7.32" goalHeight="2.44" />
+		
+		<footballerSwitching 
+		
+			mode="auto" 
+			veryDynamic="true" 
+			
+			footballerReachHeight="1.85" 
+			playerReactionTime="0.2" 
+		
+			switchInfluenceTimeMultiplier="0.15"
+			playerControlEffectInterval="2.0"
+			pathInterceptDistTolerance="1.0"
+			pathInterceptTimeCompareTolerance="0.5"
+			pathInterceptDistCompareTolerance="1.5"
+			ballDistCompareTolerance="2.0"
+			minSwitchInterval="0.6"
+			lazyUpdateInterval="2.0"
+		/>
+		
+		<pathInterceptManager>
+			<ballPathIntercept simulMaxFrameCount="3" simulFrameDuration="2.0" simulMaxFrameDuration="10.0" simulTolerance="0.28" simulExtraTrajPrecision="false" logPerformance="true" />
+		</pathInterceptManager>
+		
+		<ballShotEstimator>
+			<ballSimulSettings simulMaxFrameCount="3" simulFrameDuration="2.0" simulMaxFrameDuration="10.0" simulTolerance="0.28" simulExtraTrajPrecision="false" />
+		</ballShotEstimator>
+		
+		<miniPitchScanner size="0.25" offsetHoriz="0.01" offsetVert="0.01" texFilter="aniso" blendType="alpha"
+							textureFilePath="../../tex/scanner/scanner_600x450_01.png" color="1.0,1.0,1.0,0.5" 
+							footballerSize="0.05" footballerTextureFilePath="../../tex/scanner/player_icon_00.png" footballerAlpha="0.75" 
+							playerFootballerTextureFilePath="../../tex/scanner/player_icon_01.png"
+							ballSize="0.05" ballTextureFilePath="../../tex/scanner/ball_icon_00.png" ballColor="1.0,1.0,1.0,0.75" 
+		/>
+		
+		
+		<sceneSubdivision minCellSize="1.5,2,1.5" maxDepth="-1" maxCellElementCount="20" freeSpaceLoad="0" largeVolumeCoeff="0.2" />
+				
+	</game>	
+	
+	<game remote="[LocalPath]matchSetup.xml" />
+	
+	<!-- coordSys name="WE" x="right" y="up" z="forward" rotation="leftHanded" -->
+	<!-- vector="x,y,z" -->
+
+		<meshes>
+
+			<!--grass remote="../../mesh/grass/grass.mesh.xml/mesh" >
+				<params physMaterial="pitch/grass" />
+			</grass-->
+			
+			<grass remote="../../mesh/grass/grass.mesh.xml/mesh" >
+				<params physMaterial="pitch/grass" />
+			</grass>
+			
+			<grass_pattern remote="../../mesh/grass/grass_pattern.mesh.xml/mesh" >
+				<params physMaterial="pitch/grass" />
+			</grass_pattern>
+		
+			<!--pitch remote="../../mesh/pitch/pitch_mesh.xml/pitch" anchor="center,max,center" >
+				<params physMaterial="pitch/grass" />
+			</pitch-->
+			
+			<pitchLines remote="../../mesh/pitch_lines/pitch_lines.mesh.xml/mesh" anchor="none,max,center" translate="0,0,0" />
+			
+			<goal remote="../../mesh/goal/goal_mesh.mesh.xml/mesh" >
+				<tranform anchor="center" />
+				<tranform anchor="none,min,min" />
+			</goal>
+			
+			<goalProxy remote="../../mesh/goal_proxy/goal_n_proxy.mesh.xml/mesh" >
+				<tranform anchor="center" />
+				<tranform anchor="none,min,max" />
+			</goalProxy>
+			
+			<goalDetectBox remote="../../mesh/boxes/boxes_mesh.xml/box" anchor="center,min,min" scale="7.15,2.2,2.25" />
+			
+			<ball remote="../../mesh/ball/ball_mesh.xml/ball" anchor="center" />
+			
+			<wall0 remote="../../mesh/boxes/boxes_mesh.xml/box" anchor="center,min,center" scale="105,400,1" >
+				<params physMaterial="pitch/wall" />
+			</wall0>
+			
+			<wall1 remote="../../mesh/boxes/boxes_mesh.xml/box" anchor="center,min,center" scale="1,400,135" >
+				<params physMaterial="pitch/wall" />
+			</wall1>
+			
+
+			<cornerflags remote="../../mesh/cornerflags/cornerflags.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</cornerflags>		
+			
+			<banners remote="../../mesh/banners/banners.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</banners>
+			
+			<!-- simplify remote="../../mesh/coc/simplify_mesh.xml/simplify2" anchor="center,min,center" translate="0,0.02,0" /-->
+			
+			<!-- Bigger walls for tests
+			<wall0 remote="../../mesh/boxes/boxes_mesh.xml/box" anchor="center,min,center" scale="105,400,15" />
+			<wall1 remote="../../mesh/boxes/boxes_mesh.xml/box" anchor="center,min,center" scale="4,400,135" />
+			-->
+		</meshes>
+		
+		<meshes _tagDisabled="[IsDebugBuild]" >
+		
+			<ground_outsidepitch remote="../../mesh/ground_outsidepitch/ground_outsidepitch.mesh.xml/mesh" >
+				<params physMaterial="stadium/concrete" />
+			</ground_outsidepitch>
+		
+			<boards remote="../../mesh/boards/boards.mesh.xml/mesh" anchor="center,none,center" >
+				<params physMaterial="wood/empty" />
+			</boards>
+			
+			<benches remote="../../mesh/benches/benches.mesh.xml/mesh" >
+				<params physMaterial="wood/hard" />
+			</benches>
+		
+			<stand_old remote="../../mesh/stand_old/stand_old.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</stand_old>
+			
+			<stand_corner remote="../../mesh/stand_corner/stand_corner.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</stand_corner>
+			
+			<microphones remote="../../mesh/microphones/microphones.mesh.xml/mesh" >
+				<params physMaterial="microphone" />
+			</microphones>		
+		
+			<spectators_north remote="../../mesh/spectators/spectators_north.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_north>
+			
+			<spectators_south remote="../../mesh/spectators/spectators_south.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_south>
+			
+			<spectators_eastnorth remote="../../mesh/spectators/spectators_eastnorth.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_eastnorth>
+			
+			<spectators_eastsouth remote="../../mesh/spectators/spectators_eastsouth.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_eastsouth>
+			
+			<spectators_westnorth remote="../../mesh/spectators/spectators_westnorth.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_westnorth>
+			
+			<spectators_westsouth remote="../../mesh/spectators/spectators_westsouth.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_westsouth>
+			
+			<spectators_security remote="../../mesh/spectators/spectators_security.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</spectators_security>			
+			
+			<banners_teams remote="../../mesh/banners_teams/banners_teams.mesh.xml/mesh" >
+				<params physMaterial="wood/empty" />
+			</banners_teams>		
+		
+		</meshes>
+
+		<sounds remote="sounds.xml/sounds" />	
+		<tracks remote="tracks.xml/tracks" />	
+				
+		<entities>
+			
+			<!--cam2 type="camera" fov="55" range="0.1,400" velocity="15" rotation="3" trackOffset="0,16.7,-20.4" lookAtOffset="0,0,-2" _trackOffset="0,22.7,-30.4" _lookAtOffset="0,0,-15">
+				
+				<controllers>
+					<controller name="bufferZone" type="bufferZone" enable="true" radius="5" refScreenWidth="800" gameBind="bufferZone" >
+						<center enable="false" >
+							<trajectory type="speed" interval="1.5" />
+						</center>
+					</controller>
+					<controller type="pointTrajectory" name="zoomOut" enable="true" offset="0,15,0" controlTarget="eye" >
+						<startProfile type="speed" interval="1.6" />
+					</controller>
+					<controller type="pointTrajectory" name="tilt" enable="true" controlTarget="targetOffset" >
+						<startProfile type="speed" interval="1.6" />
+					</controller>
+					<controller type="pointTrajectory" name="move" enable="true" controlTarget="offset" >
+						<startProfile type="speed" interval="1.6" />
+					</controller>
+					<controller type="controllerGroup" name="lookAheadControllers" enable="true" >
+						<member name="zoomOut" />
+						<member name="tilt" />
+						<member name="move" />
+					</controller>
+					<controller name="lookAheadActivator" type="trendActivator" enable="true" trendDistance="5.0" _trendInterval="0.8" idleInterval="0.4" 
+									sensitivity="0.5" activationTarget="lookAheadControllers" >
+						<follower name="tilt" distance="5" directionCount="2" />
+						<follower name="move" distance="7" invDistance="10" directionCount="8" />
+					</controller>
+					
+					<controller type="controllerGroup" enable="true" gameBind="controller" >
+						<member name="bufferZone" />
+						<member name="lookAheadActivator" />
+					</controller>
+					
+					<controller name="limit" type="constraint" enable="true" controlTarget="post" gameBind="postController" >
+						<constraint type="axis" axis="forward" min="-45" max="45" />
+						<constraint type="axis" axis="right" min="-45" max="45" />
+					</controller>
+					
+				</controllers>
+								
+			</cam2-->
+			
+			<!--cam1 type="camera" fov="50" range="0.1,400" velocity="15" rotation="3" trackOffset="0,30,0" lookAtOffset="0,0,-2" /-->
+			<cam0 type="camera" fov="50" range="0.1,400" velocity="15" rotation="3" trackOffset="0,23,32" lookAtOffset="0,0,5" >
+			
+				<controllers>
+					<controller name="smooth" type="smoother" enable="true" gameBind="controller" 
+								timeTolerance="0.15" moveSpeed="1.5" distanceTolerance="0.1" dynamicFixPoint="true" />
+								
+					<controller name="limit" type="constraint" enable="true" controlTarget="post" gameBind="postController" >
+						<constraint type="axis" axis="forward" min="-55" max="55" />
+						<constraint type="axis" axis="right" min="-40" max="40" />
+					</controller>
+	
+				</controllers>	
+			
+			</cam0>
+			<!--cam1 type="camera" fov="50" range="0.1,400" velocity="15" rotation="3" trackOffset="0,40,-11" lookAtOffset="0,0,-2" /-->
+			
+			
+			<cam1 type="camera" fov="50" range="1,400" velocity="15" rotation="3" trackOffset="-27,23,0" lookAtOffset="0,0,0" >
+			
+				<controllers>
+				
+					<controller name="smooth" type="smoother" enable="true" gameBind="controller" 
+								timeTolerance="0.15" moveSpeed="1.5" distanceTolerance="0.1" dynamicFixPoint="true" />
+					
+					<controller name="limit" type="constraint" enable="true" controlTarget="post" gameBind="postController" >
+						<constraint type="axis" axis="forward" min="-55" max="55" />
+						<constraint type="axis" axis="right" min="-40" max="40" />
+					</controller>
+					
+				</controllers>	
+			
+			</cam1>
+			
+			<!--cam3 type=	"camera" fov="45" range="0.1,250" velocity="15" rotation="3" trackOffset="0,4,-8" lookAtOffset="0,1,4" /-->
+			<!--cam4 type="camera" fov="45" range="0.1,250" velocity="15" rotation="3" trackOffset="0,1.5,0.2" lookAtOffset="0,1.2,12" /-->
+			<!--cam5 type="camera" fov="45" range="0.1,250" velocity="15" rotation="3" trackOffset="0,3,-12" lookAtOffset="0,0,-1" /-->
+			
+			<!--cam6 type="camera" fov="50" range="1,400" velocity="15" rotation="3" trackOffset="-12.5,12.5,0" lookAtOffset="0,0,0" /-->
+			
+			<!--light0 type="light" lightIndex="0" ambient="0.5" diffuse="1.0" specular="0.55" direction="0.3,-0.7,0.3" /-->
+			<!--light1 type="light" lightIndex="1" ambient="0" diffuse="0.7" specular="0" direction="0.5,0.5,0.0" /-->
+
+			<!--pitchLimits gameType="pitchLimit" > 
+				<limit axis="right" min="
+			
+			</pitchLimits--> 			
+			
+			<!--simplify type="mesh" source="simplify" coll="false" collNP="false" > 
+				<params tex_coc="coc_blue_circle" />
+			</simplify-->
+			
+			<!--pitch type="mesh" source="pitch" coll="true" collNP="false" collMaterial="pitch/grass" gameType="pitch" /--> 
+			<pitchLines type="mesh" source="pitchLines" /> 
+			<cornerflags type="mesh" source="cornerflags" shadowing="true" coll="false" collNP="true" collMaterial="stadium/board"/> 
+			
+			<grass type="mesh" source="grass" coll="true" collNP="true" collMaterial="pitch/grass" gameType="pitch" /> 			
+			
+			<grass_pattern type="mesh" source="grass_pattern" coll="false" collNP="false" collMaterial="pitch/grass" /> 			
+			
+			<!--stadium type="mesh" source="stadium" collNP="true" /--> 
+			
+			<wallLeft type="mesh" source="wall0" coll="false" collNP="true" collMaterial="pitch/wall" visible="false" /> 
+			<wallRight type="mesh" source="wall0" coll="false" collNP="true" collMaterial="pitch/wall" visible="false" /> 
+			
+			<wallFwd type="mesh" source="wall1" coll="false" collNP="true" collMaterial="pitch/wall" visible="false" /> 
+			<wallBack type="mesh" source="wall1" coll="false" collNP="true" collMaterial="pitch/wall" visible="false" /> 
+			
+			<goalLeft type="mesh" source="goal" coll="false" collNP="true" gameType="goal" shadowing="true" > 
+				<params tex_goal="goal_diagonal_blue" />
+			</goalLeft>
+			
+			<goalProxyLeft type="mesh" source="goalProxy" coll="false" collNP="true" gameType="goalProxy" visible="false" /> 
+			
+			<goalDetectBoxLeft type="mesh" gameType="noScriptedCharacterColl" source="goalDetectBox" coll="true" collNP="false" collMaterial="goalDetectA" visible="false" /> 
+			
+			<goalRight type="mesh" source="goal" coll="false" collNP="true" gameType="goal" shadowing="true" > 
+				<params tex_goal="goal_checker_red" />
+			</goalRight>
+			
+			<goalProxyRight type="mesh" source="goalProxy" coll="false" collNP="true" gameType="goalProxy" visible="false" /> 
+			
+			<goalDetectBoxRight type="mesh" gameType="noScriptedCharacterColl" source="goalDetectBox" coll="true" collNP="false" collMaterial="goalDetectB" visible="false" /> 
+			
+			<ball type="mesh" source="ball" coll="true" collNP="false" collMaterial="ball" gameType="ball" scriptBallCommandManagerClass="BallCommandManager"> 
+				<params tex_ball="ball_03_yellow" />
+			</ball>
+		
+		</entities>
+		
+		<entities _tagDisabled="[IsDebugBuild]">
+		
+			<ground_outsidepitch type="mesh" source="ground_outsidepitch" coll="false" collNP="true" collMaterial="stadium/concrete" gameType="noScriptedCharacterColl" /> 
+					
+			<boards type="mesh" source="boards" coll="false" collNP="true" collMaterial="stadium/board" /> 
+			<benches type="mesh" source="benches" shadowing="true" coll="false" collNP="true" collMaterial="stadium/board"/> 
+			<stand_old type="mesh" source="stand_old" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 
+			<stand_corner type="mesh" source="stand_corner" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 
+			<microphones type="mesh" source="microphones" shadowing="true" coll="false" collNP="true" collMaterial="stadium/board"/> 
+			
+			<banners type="mesh" source="banners" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/>
+			<spectators_north type="mesh" source="spectators_north" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+			<spectators_south type="mesh" source="spectators_south" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+			
+			<spectators_eastnorth type="mesh" source="spectators_eastnorth" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+			<spectators_eastsouth type="mesh" source="spectators_eastsouth" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+			
+			<spectators_westnorth type="mesh" source="spectators_westnorth" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+			<spectators_westsouth type="mesh" source="spectators_westsouth" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 						
+			
+			<spectators_security type="mesh" source="spectators_security" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+			<banners_teams type="mesh" source="banners_teams" shadowing="false" coll="false" collNP="true" collMaterial="stadium/board"/> 			
+					
+		</entities>
+
+		<meshes remote="../../mesh/footballer/footballer_meshes.xml/meshes" />	
+		<meshes remote="../../mesh/footballerHair/footballer_hair_meshes.xml/meshes" />	
+		
+		<loadTeamScenes />	
+		
+		<transformTree>
+		
+			<!--light0 entity="light0" direction="-0.3,-1,0.3" /-->
+		
+			<cam1 entity="cam0" pos="0,30,-10" lookAt="0,0,0" />
+			<cam0 entity="cam1" pos="0,30,-10" lookAt="0,0,0" />
+			<!--cam2 entity="cam2" pos="-30,30,-10" lookAt="0,0,0" /-->
+			<!--cam3 entity="cam3" pos="8,8,0" lookAt="0,4,0" /-->
+			<!--cam4 entity="cam4" pos="0,8,-65" lookAt="0,4,0" /-->
+			<!--cam5 entity="cam5" pos="0,8,-65" lookAt="0,4,0" /-->
+			<!--cam6 entity="cam6" pos="0,8,-65" lookAt="0,4,0" /-->
+		
+			<stadiumCenter>
+				<pitchCenter>
+
+					<!-- Original conservative walls >
+					<wallLeft entity="wallLeft" pos="0,-1,-65.2" />
+					<wallRight entity="wallRight" pos="0,-1,65.2" />
+					<wallFwd entity="wallFwd" pos="-47,-1,0" />
+					<wallBack entity="wallBack" pos="47,-1,0" /-->
+									
+					<!-- Recessed walls -->
+					<wallLeft entity="wallLeft" pos="0,-1,-66" />
+					<wallRight entity="wallRight" pos="0,-1,66" />
+					<wallFwd entity="wallFwd" pos="-50.9,-1,0" />
+					<wallBack entity="wallBack" pos="50.9,-1,0" />
+					
+					<!-- simplify entity="simplify" pos="0,0,0" /-->
+					
+				
+					<!-- Bigger walls for testing
+					<wallLeft entity="wallLeft" pos="0,-1,-66.9" />
+					<wallRight entity="wallRight" pos="0,-1,66.9" />
+					<wallFwd entity="wallFwd" pos="-51.9,-1,0" />
+					<wallBack entity="wallBack" pos="51.9,-1,0" />
+					-->
+				
+					<stand_old entity="stand_old" _tagDisabled="[IsDebugBuild]" />
+					<stand_corner entity="stand_corner" _tagDisabled="[IsDebugBuild]" />
+					<microphones entity="microphones" _tagDisabled="[IsDebugBuild]" />
+					<cornerflags entity="cornerflags" />
+					<banners entity="banners" _tagDisabled="[IsDebugBuild]" />
+					<spectators_north entity="spectators_north" _tagDisabled="[IsDebugBuild]" />
+					<spectators_south entity="spectators_south" _tagDisabled="[IsDebugBuild]" />
+					<spectators_eastnorth entity="spectators_eastnorth" _tagDisabled="[IsDebugBuild]" />
+					<spectators_eastsouth entity="spectators_eastsouth" _tagDisabled="[IsDebugBuild]" />
+					<spectators_westnorth entity="spectators_westnorth" _tagDisabled="[IsDebugBuild]" />
+					<spectators_westsouth entity="spectators_westsouth" _tagDisabled="[IsDebugBuild]" />
+					
+					<spectators_security entity="spectators_security" _tagDisabled="[IsDebugBuild]" />
+					<banners_teams entity="banners_teams" _tagDisabled="[IsDebugBuild]" />
+					<!--stadium entity="stadium" /-->
+					<ground_outsidepitch entity="ground_outsidepitch" _tagDisabled="[IsDebugBuild]" />
+					<boards entity="boards" _tagDisabled="[IsDebugBuild]" />
+					<benches entity="benches" _tagDisabled="[IsDebugBuild]" />
+					
+					<grass entity="grass" renderOrder="-1" >
+						<grass_pattern entity="grass_pattern" renderOrder="-1" />
+						
+						<goalLeft entity="goalLeft" pos="0,0,-60" axis="0,1,0" angle="180" />
+						<goalProxyLeft entity="goalProxyLeft" pos="0,0,-64.2" axis="0,1,0" angle="180" />
+						<goalDetectBoxLeft entity="goalDetectBoxLeft" pos="0,0,-60.43" axis="0,1,0" angle="180" />
+						
+						<goalRight entity="goalRight" pos="0,0,60"  />
+						<goalProxyRight entity="goalProxyRight" pos="0,0,64.2" />
+						<goalDetectBoxRight entity="goalDetectBoxRight" pos="0,0,60.43" />
+						
+						<!--footballer0_2 optional="true" entity="footballer0_2" pos="-25,0,-55" axis="0,1,0" angle="0" />
+						<footballer0_3 optional="true" entity="footballer0_3" pos="25,0,-55" axis="0,1,0" angle="0" /-->
+						
+						<footballer0_1 optional="true" entity="footballer0_1" pos="0,0,-55" axis="0,1,0" angle="0" >
+							<footballer0_1_hair optional="true" entity ="footballer0_1_hair" boneAttach="Bip01_Head" />
+						</footballer0_1>	
+				
+						<footballer0_2 optional="true" entity="footballer0_2" pos="-25,0,-35" axis="0,1,0" angle="0" >
+							<footballer0_2_hair optional="true" entity ="footballer0_2_hair" boneAttach="Bip01_Head" />
+						</footballer0_2>
+						
+						<footballer0_3 optional="true" entity="footballer0_3" pos="25,0,-35" axis="0,1,0" angle="0" >
+							<footballer0_3_hair optional="true" entity ="footballer0_3_hair" boneAttach="Bip01_Head" />
+						</footballer0_3>
+						
+						<footballer0_4 optional="true" entity="footballer0_4" pos="15,0,-20" axis="0,1,0" angle="0" >
+							<footballer0_4_hair optional="true" entity ="footballer0_4_hair" boneAttach="Bip01_Head" />
+						</footballer0_4>
+						
+						<footballer0_5 optional="true" entity="footballer0_5" pos="10,0,-35" axis="0,1,0" angle="0" >
+							<footballer0_5_hair optional="true" entity ="footballer0_5_hair" boneAttach="Bip01_Head" />
+						</footballer0_5>
+						
+						<footballer0_6 optional="true" entity="footballer0_6" pos="-10,0,-35" axis="0,1,0" angle="0" >
+							<footballer0_6_hair optional="true" entity ="footballer0_6_hair" boneAttach="Bip01_Head" />
+						</footballer0_6>
+						
+						<footballer0_7 optional="true" entity="footballer0_7" pos="-35,0,25" axis="0,1,0" angle="0" >
+							<footballer0_7_hair optional="true" entity ="footballer0_7_hair" boneAttach="Bip01_Head" />
+						</footballer0_7>
+						
+						<footballer0_8 optional="true" entity="footballer0_8" pos="-15,0,-20" axis="0,1,0" angle="0" >
+							<footballer0_8_hair optional="true" entity ="footballer0_8_hair" boneAttach="Bip01_Head" />
+						</footballer0_8>
+						
+						<footballer0_9 optional="true" entity="footballer0_9" pos="5,0,-5" axis="0,1,0" angle="0" >
+							<footballer0_9_hair optional="true" entity ="footballer0_9_hair" boneAttach="Bip01_Head" />
+						</footballer0_9>
+						
+						<footballer0_10 optional="true" entity="footballer0_10" pos="-2,0,-2" axis="0,1,0" angle="0" >
+							<footballer0_10_hair optional="true" entity ="footballer0_10_hair" boneAttach="Bip01_Head" />
+						</footballer0_10>
+						
+						<footballer0_11 optional="true" entity="footballer0_11" pos="35,0,25" axis="0,1,0" angle="0" >						
+							<footballer0_11_hair optional="true" entity ="footballer0_11_hair" boneAttach="Bip01_Head" />
+						</footballer0_11>					
+
+							
+						<footballer1_1 optional="true" entity="footballer1_1" pos="0,0,55" axis="0,1,0" angle="180" >
+							<footballer1_1_hair optional="true" entity ="footballer1_1_hair" boneAttach="Bip01_Head" />
+						</footballer1_1>
+						
+						<footballer1_2 optional="true" entity="footballer1_2" pos="-25,0,35" axis="0,1,0" angle="180" >
+							<footballer1_2_hair optional="true" entity ="footballer1_2_hair" boneAttach="Bip01_Head" />
+						</footballer1_2>
+						
+						<footballer1_3 optional="true" entity="footballer1_3" pos="25,0,35" axis="0,1,0" angle="180" >
+							<footballer1_3_hair optional="true" entity ="footballer1_3_hair" boneAttach="Bip01_Head" />
+						</footballer1_3>
+						
+						<footballer1_4 optional="true" entity="footballer1_4" pos="15,0,20" axis="0,1,0" angle="180" >
+							<footballer1_4_hair optional="true" entity ="footballer1_4_hair" boneAttach="Bip01_Head" />
+						</footballer1_4>
+						
+						<footballer1_5 optional="true" entity="footballer1_5" pos="10,0,35" axis="0,1,0" angle="180" >
+							<footballer1_5_hair optional="true" entity ="footballer1_5_hair" boneAttach="Bip01_Head" />
+						</footballer1_5>
+						
+						<footballer1_6 optional="true" entity="footballer1_6" pos="-10,0,35" axis="0,1,0" angle="180" >
+							<footballer1_6_hair optional="true" entity ="footballer1_6_hair" boneAttach="Bip01_Head" />
+						</footballer1_6>
+						
+						<footballer1_7 optional="true" entity="footballer1_7" pos="-35,0,-25" axis="0,1,0" angle="180" >
+							<footballer1_7_hair optional="true" entity ="footballer1_7_hair" boneAttach="Bip01_Head" />
+						</footballer1_7>
+						
+						<footballer1_8 optional="true" entity="footballer1_8" pos="-15,0,20" axis="0,1,0" angle="180" >
+							<footballer1_8_hair optional="true" entity ="footballer1_8_hair" boneAttach="Bip01_Head" />
+						</footballer1_8>
+						
+						<footballer1_9 optional="true" entity="footballer1_9" pos="5,0,5" axis="0,1,0" angle="180" >
+							<footballer1_9_hair optional="true" entity ="footballer1_9_hair" boneAttach="Bip01_Head" />
+						</footballer1_9>
+						
+						
+						<footballer1_10 optional="true" entity="footballer1_10" pos="-6,0,6" axis="0,1,0" angle="180" >
+							<footballer1_10_hair optional="true" entity ="footballer1_10_hair" boneAttach="Bip01_Head" />
+						</footballer1_10>
+							
+						<footballer1_11 optional="true" entity="footballer1_11" pos="35,0,-25" axis="0,1,0" angle="180" >							
+							<footballer1_11_hair optional="true" entity ="footballer1_11_hair" boneAttach="Bip01_Head" />
+						</footballer1_11>
+					
+						<ball entity="ball" pos="0,2,0" />
+						
+					</grass>
+					
+					<pitchLines entity="pitchLines" renderOrder="-1" />
+					
+				</pitchCenter>
+			</stadiumCenter>
+		
+		</transformTree>
+		
+	<physics>
+		
+		<materials>
+			<!-- metrics are independent of scene metrics, metrics: meters, seconds /-->
+			
+			<material name="human/skin" bouncy="0.2" rough="0.5" />
+			<material name="wood/empty" bouncy="0.15" rough="0.5" movePenalty="0.2" moveDrag="0.16" />
+			<material name="wood/hard" bouncy="0.75" rough="0.5" movePenalty="0.2" moveDrag="0.16" />
+			<material name="wood1" bouncy="0.3" rough="0.3" movePenalty="0.2" moveDrag="0.16" />
+			<material name="metal/empty" bouncy="0.8" rough="0.3" />
+			<material name="ice" bouncy="0.6" rough="0.1" movePenalty="0.05" moveDrag="0.05" />
+			<material name="concrete" bouncy="0.5" rough="0.45" movePenalty="0.37" moveDrag="0.13" />
+			<material name="grass" bouncy="0.5" rough="0.45" movePenalty="0.37" moveDrag="0.13" />
+			<material name="goalDetectA" isTriggerOnly="true" triggerType="GameTrigger" triggerValue="GoalA" />
+			<material name="goalDetectB" isTriggerOnly="true" triggerType="GameTrigger" triggerValue="GoalB" />
+			
+			<!-- ref attribute is just for info -->
+			<material name="box" ref="wood1" bouncy="0.3" rough="0.3" movePenalty="0.2" moveDrag="0.16" />
+			<material name="stadium/concrete" ref="concrete" bouncy="0.5" rough="0.45" movePenalty="0.37" moveDrag="0.13" />
+			<material name="goal/post" ref="metal/empty" bouncy="1" rough="0.3" sound="post" />
+			<material name="goal/net" bouncy="0.1" rough="0.3" movePenalty="0.7" moveDrag="0.2" />
+			<material name="ball" bouncy="0.5" rough="0.5" movePenalty="0.37" moveDrag="0.04"  />
+			<material name="pitch/grass" ref="grass" bouncy="0.5" rough="0.45" movePenalty="0.37" moveDrag="0.13" />
+			<!--material name="pitchLimit" bouncy="0.1" rough="0.3" movePenalty="0.7" moveDrag="0.2" /-->
+			<material name="pitch/wall" bouncy="0.1" rough="0.5" movePenalty="0.2" moveDrag="0.16" />
+			<material name="stadium/board" ref="wood/empty" bouncy="0.15" rough="0.5" movePenalty="0.2" moveDrag="0.16" />
+			<material name="microphone" ref="wood/empty"bouncy="0.75" rough="0.5" movePenalty="0.2" moveDrag="0.16" />
+			<material name="benches/bench_frame" ref="metal/empty" bouncy="1" rough="0.3" sound="post" />
+			<material name="benches/bench_seats" ref="wood/empty" bouncy="0.15" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="hit_wood"/>
+			<material name="benches/bench_glass" ref="wood/empty" bouncy="0.15" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="hit_glass"/>
+			
+			<combinedMaterial name1="pitch/grass" name2="ball" bouncy="0.80" rough="0.45" movePenalty="1.5" moveDrag="1.5" sound="bounce" />
+			<combinedMaterial name1="stadium/concrete" name2="ball" bouncy="0.65" rough="0.7" movePenalty="0.65" moveDrag="0.5" sound="bounce" />
+			
+			<combinedMaterial name1="ice" name2="ball" bouncy="0.55" rough="0.005" movePenalty="0.05" moveDrag="0.05" />
+			<combinedMaterial name1="pitch/wall" name2="ball" bouncy="0.5" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="wall" />
+			<combinedMaterial name1="goal/net" name2="ball" bouncy="0.25" rough="0.4" movePenalty="0.7" moveDrag="0.2" sound="net" />
+			<combinedMaterial name1="human/skin" name2="ball" bouncy="0.15" rough="0.5" sound="body_ball" />
+			<!--combinedMaterial name1="human/skin" name2="stadium/board" bouncy="0.15" rough="0.5" sound="body_wood" /-->
+			<!--combinedMaterial name1="goal/net" name2="ball" bouncy="0.1" rough="0.5" movePenalty="0.7" moveDrag="0.2" flexible="1.0"/-->
+			
+			<combinedMaterial name1="wood/empty" name2="ball" bouncy="0.25" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="hit_wood" />
+			<combinedMaterial name1="wood/hard" name2="ball" bouncy="0.75" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="bounce" />
+			<combinedMaterial name1="stadium/board" name2="ball" bouncy="0.25" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="hit_wood" />
+			
+			<combinedMaterial name1="microphone" name2="ball" bouncy="0.75" rough="0.5" movePenalty="0.2" moveDrag="0.16" sound="micpop" />
+						
+		</materials>
+		
+	</physics>
+
+	</scene>
+		
+</WE>

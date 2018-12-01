@@ -1,0 +1,9 @@
+<WE>
+
+	<tracks>
+		<ambient remote="../../audio/crowd_idle_02_loop.ogg" volume="2.0" />
+		<!--ambient remote="../../audio/crowd_idle_01_loop.ogg" volume="1.0" /-->
+		<goal remote="../../audio/goal_celeb_01.ogg" volume="2.5" />
+	</tracks>
+
+</WE>
