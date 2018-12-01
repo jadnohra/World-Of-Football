@@ -2,7 +2,7 @@
 
 This is a developer backup copy of __World of Football__, a computer game that was never released. It was designed by [Dennis Hansen](https://www.linkedin.com/in/denniskhanhansen/) and developed [Jad Nohra](https://www.linkedin.com/in/jadnohra/) between the years 2006 and 2008. The game was not a commercial project.
 
-The idea of the game was to bring back the gameplay of old soccer game classics, based on skill using the controller, and away from canned special moves, but using relatively modern (at the time) 3D graphics. Manually creating special moves was possible using the novel concept of __circle-of-control__ invented by Dennis. A basic example of the concept in action can be seen [here](https://youtu.be/y1ql5D7sgC0?list=PL5ED86276C6DB1347&t=46).
+The idea of the game was to bring back the gameplay of old soccer game classics, based on skill using the controller, and away from canned special moves, but using relatively modern (at the time) 3D graphics. Manually creating special moves was possible using the novel concept of __circle-of-control__ invented by Dennis, in combiation with skill-based ball shooting. A basic example of the concept in action can be seen [here](https://youtu.be/y1ql5D7sgC0?list=PL5ED86276C6DB1347&t=46).
 
 ## Directory Structure
 
