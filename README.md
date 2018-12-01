@@ -4,8 +4,6 @@ This is a developer backup copy of __World of Football__, a computer game that w
 
 The idea of the game was to bring back the gameplay of old soccer game classics, based on skill using the controller, and away from canned special moves, but using relatively modern (at the time) 3D graphics. Manually creating special moves was possible using the novel concept of __circle-of-control__ invented by Dennis. A basic example of the concept in action can be seen [here](https://youtu.be/y1ql5D7sgC0?list=PL5ED86276C6DB1347&t=46).
 
-Videos and screenshots of features, developments, and silly stuff, are in the directory _[Media](Media)_.
-
 ## Directory Structure
 
 A a bit of information to help navigating the backup:
@@ -29,7 +27,7 @@ The game engine was built from scratch with almost no usage of third party code 
  * Multiplayer gameplay over the internet was supported
 
 ## Media
-A partial gallery from the _[Media](Media)_ directory
+Videos and screenshots of features, developments, and silly stuff, are in the directory _[Media](Media)_. Here is a partial gallery: 
 
 |   | <img src="Media/collage5.jpg" width="240"/>  |   |
 |---|---|---|
