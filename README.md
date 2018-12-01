@@ -9,3 +9,11 @@ The game engine was built from scratch with almost no usage of third party code 
 The idea of the game was to bring back the gameplay of old soccer game classics, based on skill using the controller, and away from canned special moves, but using relatively modern (at the time) 3D graphics. Videos and screenshots of features, developments, and silly stuff, are in the folder _[Media](Media)_.
 
 <p align="center"><a href=https://www.youtube.com/watch?v=y1ql5D7sgC0&list=PL5ED86276C6DB1347&index=7><img src="Media/youtube_video.png" width="320"/></a></p>
+
+___
+
+|   | <img src="Media/collage5.jpg" width="240"/>  |   |
+|---|---|---|
+| <img src="Media/sshot-20.jpg" height="180"/> | <img src="Media/sshot-21.jpg" height="180"/>  | <img src="Media/sshot-22.jpg" height="180"/>  |
+|  <img src="Media/sshot-23.jpg" height="180"/> | <img src="Media/sshot-24.jpg" height="180"/>  | <img src="Media/sshot-25.jpg" height="180"/>  |
+| <img src="Media/sshot-26.jpg" height="180"/>  |  <img src="Media/sshot-27.jpg" height="180"/> | <img src="Media/sshot-28.jpg" height="180"/>  |
