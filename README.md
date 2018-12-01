@@ -1,6 +1,6 @@
 # World of Football
 
-This is a developer backup copy of _World of Football_. A game that was never released. It was designed by Dennis Hansen and developed Jad Nohra between the years 2006 and 2008. The game was not a commercial project.
+This is a developer backup copy of _World of Football_. A game that was never released. It was designed by [Dennis Hansen](https://www.linkedin.com/in/denniskhanhansen/) and developed [Jad Nohra](https://www.linkedin.com/in/jadnohra/) between the years 2006 and 2008. The game was not a commercial project.
 
 Below is a bit of information to help navigating the backup.
 
